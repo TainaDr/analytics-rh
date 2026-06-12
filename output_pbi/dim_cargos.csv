@@ -1,0 +1,32 @@
+﻿id_cargo,cargo,departamento,nivel_cargo,nivel_cargo_cod
+1,Human Resources,Human Resources,Júnior,1
+2,Human Resources,Human Resources,Pleno,2
+3,Human Resources,Human Resources,Sênior,3
+4,Manager,Human Resources,Especialista,4
+5,Manager,Human Resources,Diretor,5
+6,Laboratory Technician,Research & Development,Júnior,1
+7,Research Scientist,Research & Development,Júnior,1
+8,Research Scientist,Research & Development,Pleno,2
+9,Healthcare Representative,Research & Development,Pleno,2
+10,Laboratory Technician,Research & Development,Pleno,2
+11,Manufacturing Director,Research & Development,Pleno,2
+12,Manufacturing Director,Research & Development,Sênior,3
+13,Research Director,Research & Development,Sênior,3
+14,Healthcare Representative,Research & Development,Sênior,3
+15,Laboratory Technician,Research & Development,Sênior,3
+16,Research Scientist,Research & Development,Sênior,3
+17,Manager,Research & Development,Sênior,3
+18,Manager,Research & Development,Especialista,4
+19,Healthcare Representative,Research & Development,Especialista,4
+20,Research Director,Research & Development,Especialista,4
+21,Manufacturing Director,Research & Development,Especialista,4
+22,Manager,Research & Development,Diretor,5
+23,Research Director,Research & Development,Diretor,5
+24,Sales Representative,Sales,Júnior,1
+25,Sales Executive,Sales,Pleno,2
+26,Sales Representative,Sales,Pleno,2
+27,Sales Executive,Sales,Sênior,3
+28,Manager,Sales,Sênior,3
+29,Manager,Sales,Especialista,4
+30,Sales Executive,Sales,Especialista,4
+31,Manager,Sales,Diretor,5

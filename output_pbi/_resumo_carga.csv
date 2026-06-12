@@ -1,0 +1,4 @@
+﻿tabela,linhas,colunas,arquivo,gerado_em
+fato_funcionarios,1470,39,fato_funcionarios.csv,2026-06-12 15:33:15
+dim_cargos,31,5,dim_cargos.csv,2026-06-12 15:33:15
+dim_satisfacao,1470,14,dim_satisfacao.csv,2026-06-12 15:33:15

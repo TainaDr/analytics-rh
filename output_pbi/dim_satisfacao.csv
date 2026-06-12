@@ -1,0 +1,1471 @@
+﻿id_funcionario,satisfacao_trabalho,satisfacao_trabalho_cod,satisfacao_ambiente,satisfacao_ambiente_cod,satisfacao_relacionamento,satisfacao_relacionamento_cod,envolvimento_trabalho,envolvimento_trabalho_cod,equilibrio_vida_trabalho,equilibrio_vida_trabalho_cod,avaliacao_desempenho,avaliacao_desempenho_cod,score_bemestar
+1,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Ruim,1,Excelente,3,2.2
+2,Médio,2,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excepcional,4,2.8
+4,Alto,3,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,2.8
+5,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+7,Médio,2,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.6
+8,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+10,Baixo,1,Alto,3,Baixo,1,Muito Alto,4,Regular,2,Excepcional,4,2.2
+11,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excepcional,4,3.0
+12,Alto,3,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excepcional,4,2.8
+13,Alto,3,Alto,3,Médio,2,Alto,3,Regular,2,Excelente,3,2.6
+14,Médio,2,Baixo,1,Alto,3,Muito Alto,4,Bom,3,Excelente,3,2.6
+15,Alto,3,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.2
+16,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.6
+18,Muito Alto,4,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+19,Alto,3,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.6
+20,Baixo,1,Médio,2,Alto,3,Muito Alto,4,Bom,3,Excelente,3,2.6
+21,Médio,2,Baixo,1,Muito Alto,4,Muito Alto,4,Regular,2,Excelente,3,2.6
+22,Muito Alto,4,Muito Alto,4,Médio,2,Muito Alto,4,Regular,2,Excelente,3,3.2
+23,Muito Alto,4,Baixo,1,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+24,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.4
+26,Alto,3,Baixo,1,Muito Alto,4,Muito Alto,4,Regular,2,Excelente,3,2.8
+27,Baixo,1,Alto,3,Médio,2,Médio,2,Bom,3,Excepcional,4,2.2
+28,Médio,2,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.4
+30,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+31,Baixo,1,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.4
+32,Alto,3,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+33,Baixo,1,Médio,2,Médio,2,Baixo,1,Bom,3,Excepcional,4,1.8
+35,Médio,2,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+36,Muito Alto,4,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+38,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.4
+39,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+40,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.8
+41,Alto,3,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.6
+42,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.6
+45,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Regular,2,Excelente,3,2.4
+46,Alto,3,Muito Alto,4,Muito Alto,4,Muito Alto,4,Regular,2,Excelente,3,3.4
+47,Alto,3,Baixo,1,Alto,3,Médio,2,Bom,3,Excelente,3,2.4
+49,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,3.0
+51,Baixo,1,Médio,2,Muito Alto,4,Médio,2,Ótimo,4,Excelente,3,2.6
+52,Baixo,1,Alto,3,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,2.4
+53,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+54,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+55,Alto,3,Baixo,1,Alto,3,Baixo,1,Regular,2,Excelente,3,2.0
+56,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+57,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.4
+58,Alto,3,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+60,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excepcional,4,2.8
+61,Médio,2,Médio,2,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.2
+62,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Bom,3,Excepcional,4,2.8
+63,Muito Alto,4,Muito Alto,4,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.8
+64,Alto,3,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.6
+65,Alto,3,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+68,Baixo,1,Médio,2,Alto,3,Alto,3,Regular,2,Excepcional,4,2.2
+70,Baixo,1,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.4
+72,Muito Alto,4,Alto,3,Alto,3,Médio,2,Regular,2,Excelente,3,2.8
+73,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+74,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excepcional,4,2.4
+75,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+76,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excepcional,4,3.4
+77,Alto,3,Baixo,1,Alto,3,Médio,2,Ótimo,4,Excelente,3,2.6
+78,Muito Alto,4,Baixo,1,Médio,2,Alto,3,Bom,3,Excepcional,4,2.6
+79,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.6
+80,Alto,3,Médio,2,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.6
+81,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.2
+83,Alto,3,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+84,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+85,Médio,2,Médio,2,Alto,3,Médio,2,Bom,3,Excelente,3,2.4
+86,Baixo,1,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.4
+88,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.4
+90,Alto,3,Muito Alto,4,Baixo,1,Médio,2,Regular,2,Excelente,3,2.4
+91,Alto,3,Baixo,1,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.4
+94,Médio,2,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.0
+95,Médio,2,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+96,Médio,2,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+97,Muito Alto,4,Médio,2,Médio,2,Muito Alto,4,Bom,3,Excelente,3,3.0
+98,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.4
+100,Baixo,1,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.2
+101,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Ótimo,4,Excelente,3,2.8
+102,Alto,3,Baixo,1,Baixo,1,Alto,3,Ótimo,4,Excelente,3,2.4
+103,Médio,2,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,2.8
+104,Muito Alto,4,Muito Alto,4,Alto,3,Médio,2,Regular,2,Excelente,3,3.0
+105,Alto,3,Médio,2,Baixo,1,Médio,2,Bom,3,Excelente,3,2.2
+106,Muito Alto,4,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+107,Muito Alto,4,Médio,2,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,2.8
+110,Médio,2,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.4
+112,Muito Alto,4,Muito Alto,4,Baixo,1,Baixo,1,Regular,2,Excelente,3,2.4
+113,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+116,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excepcional,4,3.2
+117,Muito Alto,4,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.6
+118,Muito Alto,4,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.2
+119,Médio,2,Alto,3,Muito Alto,4,Médio,2,Regular,2,Excepcional,4,2.6
+120,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Ruim,1,Excepcional,4,3.0
+121,Médio,2,Alto,3,Médio,2,Médio,2,Regular,2,Excelente,3,2.2
+124,Baixo,1,Alto,3,Alto,3,Médio,2,Regular,2,Excelente,3,2.2
+125,Alto,3,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+126,Alto,3,Baixo,1,Baixo,1,Alto,3,Ruim,1,Excelente,3,1.8
+128,Alto,3,Baixo,1,Baixo,1,Alto,3,Regular,2,Excepcional,4,2.0
+129,Alto,3,Médio,2,Médio,2,Alto,3,Ótimo,4,Excelente,3,2.8
+131,Alto,3,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+132,Médio,2,Médio,2,Alto,3,Alto,3,Ótimo,4,Excelente,3,2.8
+133,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,2.8
+134,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+137,Muito Alto,4,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,3.0
+138,Alto,3,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+139,Muito Alto,4,Alto,3,Muito Alto,4,Médio,2,Ótimo,4,Excelente,3,3.4
+140,Muito Alto,4,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excepcional,4,3.2
+141,Médio,2,Baixo,1,Baixo,1,Alto,3,Regular,2,Excelente,3,1.8
+142,Alto,3,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+143,Muito Alto,4,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.2
+144,Muito Alto,4,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+145,Baixo,1,Baixo,1,Alto,3,Médio,2,Regular,2,Excepcional,4,1.8
+147,Alto,3,Baixo,1,Muito Alto,4,Baixo,1,Bom,3,Excepcional,4,2.4
+148,Muito Alto,4,Muito Alto,4,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.6
+150,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+151,Médio,2,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+152,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+153,Baixo,1,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.6
+154,Muito Alto,4,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+155,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.4
+158,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.6
+159,Alto,3,Baixo,1,Alto,3,Baixo,1,Regular,2,Excepcional,4,2.0
+160,Médio,2,Alto,3,Baixo,1,Alto,3,Ótimo,4,Excelente,3,2.6
+161,Médio,2,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+162,Alto,3,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+163,Alto,3,Médio,2,Médio,2,Baixo,1,Regular,2,Excelente,3,2.0
+164,Médio,2,Alto,3,Alto,3,Médio,2,Regular,2,Excelente,3,2.4
+165,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.4
+167,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.2
+169,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+170,Baixo,1,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.4
+171,Alto,3,Médio,2,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.2
+174,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+175,Alto,3,Médio,2,Alto,3,Baixo,1,Bom,3,Excelente,3,2.4
+176,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+177,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.2
+178,Médio,2,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,2.8
+179,Muito Alto,4,Baixo,1,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,2.6
+182,Alto,3,Muito Alto,4,Alto,3,Médio,2,Ótimo,4,Excelente,3,3.2
+183,Alto,3,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.6
+184,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Ruim,1,Excelente,3,3.0
+190,Baixo,1,Baixo,1,Baixo,1,Alto,3,Ótimo,4,Excepcional,4,2.0
+192,Muito Alto,4,Alto,3,Médio,2,Alto,3,Regular,2,Excelente,3,2.8
+193,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excepcional,4,3.0
+194,Alto,3,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.4
+195,Muito Alto,4,Muito Alto,4,Muito Alto,4,Baixo,1,Ótimo,4,Excelente,3,3.4
+197,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+198,Muito Alto,4,Médio,2,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+199,Baixo,1,Muito Alto,4,Médio,2,Médio,2,Regular,2,Excelente,3,2.2
+200,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,2.8
+201,Médio,2,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+202,Médio,2,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+204,Médio,2,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+205,Alto,3,Médio,2,Muito Alto,4,Alto,3,Ruim,1,Excepcional,4,2.6
+206,Médio,2,Médio,2,Alto,3,Alto,3,Ruim,1,Excelente,3,2.2
+207,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+208,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+211,Alto,3,Médio,2,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+214,Médio,2,Médio,2,Médio,2,Médio,2,Regular,2,Excepcional,4,2.0
+215,Muito Alto,4,Alto,3,Baixo,1,Médio,2,Regular,2,Excelente,3,2.4
+216,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+217,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.8
+218,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Ruim,1,Excelente,3,2.8
+221,Muito Alto,4,Alto,3,Alto,3,Alto,3,Ruim,1,Excelente,3,2.8
+223,Muito Alto,4,Alto,3,Médio,2,Muito Alto,4,Ruim,1,Excelente,3,2.8
+224,Alto,3,Alto,3,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.8
+226,Médio,2,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+227,Alto,3,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+228,Muito Alto,4,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+230,Muito Alto,4,Baixo,1,Alto,3,Médio,2,Ótimo,4,Excepcional,4,2.8
+231,Alto,3,Alto,3,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.6
+233,Médio,2,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.8
+235,Baixo,1,Alto,3,Baixo,1,Baixo,1,Ótimo,4,Excepcional,4,2.0
+238,Médio,2,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+239,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+240,Baixo,1,Alto,3,Baixo,1,Alto,3,Ótimo,4,Excelente,3,2.4
+241,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+242,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Ótimo,4,Excelente,3,3.0
+243,Muito Alto,4,Médio,2,Alto,3,Médio,2,Regular,2,Excepcional,4,2.6
+244,Baixo,1,Médio,2,Alto,3,Alto,3,Bom,3,Excepcional,4,2.4
+245,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+246,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excepcional,4,3.2
+247,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+248,Médio,2,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excepcional,4,2.6
+249,Alto,3,Alto,3,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.8
+250,Baixo,1,Muito Alto,4,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.0
+252,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+253,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+254,Médio,2,Alto,3,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.2
+256,Alto,3,Muito Alto,4,Alto,3,Médio,2,Regular,2,Excelente,3,2.8
+258,Médio,2,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+259,Alto,3,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.4
+260,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+261,Alto,3,Médio,2,Baixo,1,Médio,2,Bom,3,Excelente,3,2.2
+262,Muito Alto,4,Muito Alto,4,Muito Alto,4,Muito Alto,4,Ótimo,4,Excelente,3,4.0
+264,Muito Alto,4,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excepcional,4,2.8
+267,Baixo,1,Médio,2,Baixo,1,Muito Alto,4,Regular,2,Excelente,3,2.0
+269,Médio,2,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+270,Alto,3,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+271,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+273,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Ruim,1,Excelente,3,2.6
+274,Baixo,1,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.4
+275,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,3.0
+277,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.6
+281,Muito Alto,4,Alto,3,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.4
+282,Baixo,1,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.2
+283,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excepcional,4,3.0
+284,Médio,2,Muito Alto,4,Baixo,1,Muito Alto,4,Regular,2,Excelente,3,2.6
+286,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+287,Muito Alto,4,Muito Alto,4,Muito Alto,4,Médio,2,Ruim,1,Excelente,3,3.0
+288,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+291,Muito Alto,4,Muito Alto,4,Alto,3,Baixo,1,Regular,2,Excelente,3,2.8
+292,Alto,3,Alto,3,Alto,3,Médio,2,Bom,3,Excepcional,4,2.8
+293,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+296,Médio,2,Médio,2,Muito Alto,4,Médio,2,Ruim,1,Excelente,3,2.2
+297,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+298,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.4
+299,Baixo,1,Alto,3,Alto,3,Médio,2,Regular,2,Excelente,3,2.2
+300,Alto,3,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+302,Muito Alto,4,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.4
+303,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+304,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.4
+305,Médio,2,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excepcional,4,2.8
+306,Muito Alto,4,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+307,Alto,3,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.4
+308,Alto,3,Alto,3,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,2.8
+309,Muito Alto,4,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.6
+311,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+312,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+314,Alto,3,Alto,3,Baixo,1,Alto,3,Ótimo,4,Excelente,3,2.8
+315,Muito Alto,4,Alto,3,Alto,3,Médio,2,Regular,2,Excelente,3,2.8
+316,Muito Alto,4,Alto,3,Médio,2,Médio,2,Regular,2,Excelente,3,2.6
+319,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+321,Alto,3,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.8
+323,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+325,Muito Alto,4,Alto,3,Alto,3,Alto,3,Ruim,1,Excelente,3,2.8
+327,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excepcional,4,3.4
+328,Baixo,1,Baixo,1,Baixo,1,Alto,3,Ótimo,4,Excepcional,4,2.0
+329,Alto,3,Baixo,1,Muito Alto,4,Médio,2,Ótimo,4,Excelente,3,2.8
+330,Médio,2,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+331,Alto,3,Muito Alto,4,Muito Alto,4,Médio,2,Ruim,1,Excelente,3,2.8
+332,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+333,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+334,Baixo,1,Alto,3,Baixo,1,Alto,3,Regular,2,Excelente,3,2.0
+335,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+336,Muito Alto,4,Alto,3,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.4
+337,Alto,3,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+338,Muito Alto,4,Alto,3,Alto,3,Médio,2,Regular,2,Excelente,3,2.8
+339,Baixo,1,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,2.4
+340,Baixo,1,Alto,3,Baixo,1,Médio,2,Regular,2,Excelente,3,1.8
+341,Alto,3,Baixo,1,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.0
+342,Alto,3,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+343,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.2
+346,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+347,Baixo,1,Muito Alto,4,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.0
+349,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.6
+350,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+351,Baixo,1,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+352,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+353,Muito Alto,4,Alto,3,Médio,2,Alto,3,Regular,2,Excelente,3,2.8
+355,Médio,2,Alto,3,Médio,2,Médio,2,Ótimo,4,Excelente,3,2.6
+359,Médio,2,Médio,2,Alto,3,Muito Alto,4,Ruim,1,Excepcional,4,2.4
+361,Muito Alto,4,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.4
+362,Baixo,1,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+363,Médio,2,Alto,3,Médio,2,Baixo,1,Regular,2,Excelente,3,2.0
+364,Alto,3,Baixo,1,Alto,3,Alto,3,Ruim,1,Excelente,3,2.2
+366,Médio,2,Baixo,1,Médio,2,Médio,2,Bom,3,Excelente,3,2.0
+367,Muito Alto,4,Médio,2,Médio,2,Médio,2,Bom,3,Excepcional,4,2.6
+369,Baixo,1,Médio,2,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,2.8
+372,Muito Alto,4,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+373,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.4
+374,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+376,Médio,2,Baixo,1,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.4
+377,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excepcional,4,3.4
+378,Muito Alto,4,Alto,3,Médio,2,Alto,3,Ótimo,4,Excelente,3,3.2
+379,Alto,3,Muito Alto,4,Baixo,1,Médio,2,Ótimo,4,Excelente,3,2.8
+380,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+381,Médio,2,Médio,2,Médio,2,Muito Alto,4,Regular,2,Excelente,3,2.4
+382,Baixo,1,Baixo,1,Alto,3,Muito Alto,4,Bom,3,Excepcional,4,2.4
+384,Médio,2,Alto,3,Baixo,1,Alto,3,Ruim,1,Excepcional,4,2.0
+385,Médio,2,Baixo,1,Baixo,1,Alto,3,Regular,2,Excelente,3,1.8
+386,Alto,3,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+387,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excepcional,4,2.8
+388,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Regular,2,Excelente,3,2.4
+389,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+390,Baixo,1,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.2
+391,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.2
+392,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Ruim,1,Excepcional,4,3.0
+393,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.2
+394,Médio,2,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.6
+395,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.6
+396,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+397,Médio,2,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+399,Médio,2,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+401,Muito Alto,4,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,3.0
+403,Muito Alto,4,Médio,2,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+404,Médio,2,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.2
+405,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+406,Médio,2,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+407,Muito Alto,4,Alto,3,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.6
+408,Médio,2,Muito Alto,4,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,2.8
+410,Médio,2,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+411,Alto,3,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.6
+412,Baixo,1,Médio,2,Alto,3,Muito Alto,4,Bom,3,Excelente,3,2.6
+416,Muito Alto,4,Médio,2,Médio,2,Muito Alto,4,Regular,2,Excelente,3,2.8
+417,Muito Alto,4,Alto,3,Baixo,1,Muito Alto,4,Regular,2,Excelente,3,2.8
+419,Médio,2,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+420,Alto,3,Muito Alto,4,Alto,3,Médio,2,Regular,2,Excelente,3,2.8
+421,Médio,2,Baixo,1,Alto,3,Médio,2,Bom,3,Excelente,3,2.2
+422,Alto,3,Muito Alto,4,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,3.0
+423,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+424,Baixo,1,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.2
+425,Baixo,1,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,1.8
+426,Muito Alto,4,Alto,3,Médio,2,Alto,3,Ruim,1,Excelente,3,2.6
+428,Médio,2,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+429,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+430,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+431,Alto,3,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+433,Médio,2,Alto,3,Baixo,1,Médio,2,Regular,2,Excelente,3,2.0
+434,Médio,2,Alto,3,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+436,Médio,2,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+437,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+438,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.6
+439,Muito Alto,4,Baixo,1,Alto,3,Muito Alto,4,Regular,2,Excelente,3,2.8
+440,Muito Alto,4,Baixo,1,Muito Alto,4,Baixo,1,Regular,2,Excelente,3,2.4
+441,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.6
+442,Alto,3,Alto,3,Baixo,1,Médio,2,Bom,3,Excepcional,4,2.4
+444,Muito Alto,4,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.6
+445,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Regular,2,Excelente,3,2.6
+446,Muito Alto,4,Médio,2,Alto,3,Médio,2,Regular,2,Excelente,3,2.6
+447,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+448,Alto,3,Alto,3,Médio,2,Médio,2,Ótimo,4,Excelente,3,2.8
+449,Médio,2,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+450,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.2
+451,Baixo,1,Alto,3,Baixo,1,Alto,3,Regular,2,Excelente,3,2.0
+452,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,3.0
+453,Muito Alto,4,Médio,2,Alto,3,Baixo,1,Regular,2,Excepcional,4,2.4
+454,Baixo,1,Médio,2,Muito Alto,4,Baixo,1,Regular,2,Excelente,3,2.0
+455,Muito Alto,4,Médio,2,Alto,3,Médio,2,Bom,3,Excelente,3,2.8
+456,Alto,3,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.0
+458,Médio,2,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+460,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+461,Muito Alto,4,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.8
+462,Muito Alto,4,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+463,Médio,2,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.4
+464,Médio,2,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+465,Muito Alto,4,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+466,Médio,2,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+467,Alto,3,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+468,Muito Alto,4,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+469,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Regular,2,Excelente,3,2.6
+470,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+471,Médio,2,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+473,Alto,3,Baixo,1,Médio,2,Alto,3,Ruim,1,Excepcional,4,2.0
+474,Baixo,1,Alto,3,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,2.4
+475,Alto,3,Muito Alto,4,Médio,2,Alto,3,Ótimo,4,Excelente,3,3.2
+476,Alto,3,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+477,Muito Alto,4,Baixo,1,Médio,2,Médio,2,Bom,3,Excepcional,4,2.4
+478,Médio,2,Baixo,1,Alto,3,Médio,2,Bom,3,Excelente,3,2.2
+479,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.2
+481,Muito Alto,4,Baixo,1,Baixo,1,Médio,2,Bom,3,Excelente,3,2.2
+482,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+483,Alto,3,Muito Alto,4,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.4
+484,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Regular,2,Excepcional,4,2.6
+485,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+486,Baixo,1,Alto,3,Médio,2,Alto,3,Bom,3,Excepcional,4,2.4
+487,Alto,3,Alto,3,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.2
+488,Médio,2,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.4
+491,Muito Alto,4,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.4
+492,Alto,3,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.4
+493,Médio,2,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+494,Médio,2,Alto,3,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.2
+495,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.6
+496,Médio,2,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+497,Médio,2,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+498,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+499,Alto,3,Médio,2,Alto,3,Médio,2,Bom,3,Excepcional,4,2.6
+500,Muito Alto,4,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+501,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+502,Muito Alto,4,Baixo,1,Médio,2,Muito Alto,4,Regular,2,Excelente,3,2.6
+505,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+507,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.6
+508,Médio,2,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+510,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excepcional,4,2.6
+511,Médio,2,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.6
+513,Alto,3,Médio,2,Médio,2,Médio,2,Bom,3,Excelente,3,2.4
+514,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excepcional,4,3.2
+515,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+516,Médio,2,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+517,Baixo,1,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.2
+518,Médio,2,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.8
+520,Médio,2,Baixo,1,Alto,3,Médio,2,Bom,3,Excelente,3,2.2
+521,Alto,3,Médio,2,Médio,2,Médio,2,Bom,3,Excepcional,4,2.4
+522,Baixo,1,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.0
+523,Alto,3,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+524,Baixo,1,Médio,2,Médio,2,Alto,3,Ruim,1,Excelente,3,1.8
+525,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excepcional,4,3.0
+526,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+527,Muito Alto,4,Médio,2,Médio,2,Médio,2,Bom,3,Excelente,3,2.6
+529,Alto,3,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+530,Baixo,1,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+531,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+532,Baixo,1,Alto,3,Muito Alto,4,Muito Alto,4,Regular,2,Excelente,3,2.8
+533,Alto,3,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+534,Baixo,1,Médio,2,Alto,3,Muito Alto,4,Bom,3,Excelente,3,2.6
+536,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+538,Baixo,1,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.2
+543,Alto,3,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.0
+544,Muito Alto,4,Baixo,1,Muito Alto,4,Alto,3,Regular,2,Excepcional,4,2.8
+546,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Ruim,1,Excelente,3,3.2
+547,Alto,3,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+548,Muito Alto,4,Alto,3,Alto,3,Baixo,1,Bom,3,Excepcional,4,2.8
+549,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Ruim,1,Excelente,3,2.0
+550,Alto,3,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+551,Muito Alto,4,Muito Alto,4,Muito Alto,4,Médio,2,Ótimo,4,Excelente,3,3.6
+554,Médio,2,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.2
+555,Alto,3,Muito Alto,4,Muito Alto,4,Baixo,1,Regular,2,Excelente,3,2.8
+556,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excepcional,4,3.4
+558,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+560,Muito Alto,4,Baixo,1,Médio,2,Alto,3,Ruim,1,Excepcional,4,2.2
+562,Muito Alto,4,Alto,3,Alto,3,Alto,3,Ruim,1,Excelente,3,2.8
+564,Alto,3,Médio,2,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+565,Médio,2,Alto,3,Médio,2,Médio,2,Ótimo,4,Excelente,3,2.6
+566,Muito Alto,4,Baixo,1,Alto,3,Médio,2,Ótimo,4,Excelente,3,2.8
+567,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+568,Muito Alto,4,Baixo,1,Alto,3,Médio,2,Regular,2,Excelente,3,2.4
+569,Alto,3,Médio,2,Médio,2,Médio,2,Bom,3,Excelente,3,2.4
+571,Muito Alto,4,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+573,Baixo,1,Alto,3,Muito Alto,4,Médio,2,Ótimo,4,Excelente,3,2.8
+574,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+575,Alto,3,Baixo,1,Alto,3,Alto,3,Ruim,1,Excelente,3,2.2
+577,Alto,3,Muito Alto,4,Alto,3,Baixo,1,Bom,3,Excelente,3,2.8
+578,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+579,Alto,3,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.0
+580,Muito Alto,4,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,3.0
+581,Médio,2,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excepcional,4,3.2
+582,Alto,3,Médio,2,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.2
+584,Muito Alto,4,Baixo,1,Baixo,1,Baixo,1,Bom,3,Excelente,3,2.0
+585,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+586,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+587,Alto,3,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+590,Baixo,1,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.4
+591,Alto,3,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+592,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+593,Alto,3,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.8
+595,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+597,Médio,2,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,2.6
+599,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.6
+600,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+601,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+602,Alto,3,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+604,Muito Alto,4,Médio,2,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.2
+605,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excepcional,4,2.8
+606,Médio,2,Muito Alto,4,Médio,2,Alto,3,Ótimo,4,Excelente,3,3.0
+608,Alto,3,Médio,2,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+611,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Ótimo,4,Excelente,3,3.4
+612,Alto,3,Baixo,1,Alto,3,Muito Alto,4,Bom,3,Excelente,3,2.8
+613,Muito Alto,4,Alto,3,Alto,3,Médio,2,Regular,2,Excepcional,4,2.8
+614,Médio,2,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+615,Baixo,1,Alto,3,Alto,3,Baixo,1,Bom,3,Excelente,3,2.2
+616,Alto,3,Baixo,1,Baixo,1,Médio,2,Bom,3,Excelente,3,2.0
+618,Alto,3,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+620,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+621,Muito Alto,4,Muito Alto,4,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.8
+622,Muito Alto,4,Alto,3,Médio,2,Baixo,1,Ruim,1,Excelente,3,2.2
+623,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.4
+624,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.6
+625,Baixo,1,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.2
+626,Médio,2,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.6
+630,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+631,Alto,3,Muito Alto,4,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.6
+632,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.4
+634,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+635,Médio,2,Médio,2,Médio,2,Alto,3,Regular,2,Excelente,3,2.2
+638,Alto,3,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.0
+639,Muito Alto,4,Médio,2,Médio,2,Muito Alto,4,Bom,3,Excelente,3,3.0
+641,Médio,2,Baixo,1,Muito Alto,4,Alto,3,Ótimo,4,Excepcional,4,2.8
+643,Médio,2,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excepcional,4,3.0
+644,Médio,2,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.4
+645,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+647,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+648,Baixo,1,Médio,2,Alto,3,Médio,2,Ótimo,4,Excelente,3,2.4
+649,Muito Alto,4,Médio,2,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+650,Baixo,1,Médio,2,Alto,3,Alto,3,Ruim,1,Excelente,3,2.0
+652,Muito Alto,4,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+653,Muito Alto,4,Baixo,1,Muito Alto,4,Muito Alto,4,Ótimo,4,Excepcional,4,3.4
+655,Alto,3,Baixo,1,Alto,3,Médio,2,Regular,2,Excelente,3,2.2
+656,Alto,3,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+657,Médio,2,Muito Alto,4,Muito Alto,4,Médio,2,Ótimo,4,Excelente,3,3.2
+659,Muito Alto,4,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+661,Muito Alto,4,Médio,2,Alto,3,Médio,2,Regular,2,Excelente,3,2.6
+662,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.6
+663,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+664,Baixo,1,Muito Alto,4,Baixo,1,Médio,2,Ruim,1,Excelente,3,1.8
+665,Alto,3,Baixo,1,Médio,2,Médio,2,Ótimo,4,Excelente,3,2.4
+666,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+667,Baixo,1,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+669,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+671,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Ótimo,4,Excelente,3,3.2
+675,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,2.8
+677,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+679,Muito Alto,4,Baixo,1,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.8
+680,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excepcional,4,3.0
+682,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Ótimo,4,Excepcional,4,3.2
+683,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+684,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.4
+686,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+689,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+690,Alto,3,Médio,2,Baixo,1,Alto,3,Regular,2,Excelente,3,2.2
+691,Muito Alto,4,Médio,2,Médio,2,Baixo,1,Bom,3,Excelente,3,2.4
+692,Muito Alto,4,Alto,3,Alto,3,Alto,3,Ruim,1,Excepcional,4,2.8
+698,Médio,2,Alto,3,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.0
+699,Médio,2,Médio,2,Alto,3,Médio,2,Bom,3,Excelente,3,2.4
+700,Muito Alto,4,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+701,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+702,Baixo,1,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,1.8
+704,Alto,3,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.8
+705,Baixo,1,Baixo,1,Baixo,1,Muito Alto,4,Ótimo,4,Excelente,3,2.2
+707,Médio,2,Muito Alto,4,Alto,3,Muito Alto,4,Bom,3,Excepcional,4,3.2
+709,Muito Alto,4,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excepcional,4,2.8
+710,Muito Alto,4,Médio,2,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,2.8
+712,Médio,2,Médio,2,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.0
+714,Muito Alto,4,Muito Alto,4,Médio,2,Muito Alto,4,Bom,3,Excepcional,4,3.4
+715,Muito Alto,4,Muito Alto,4,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,3.2
+716,Alto,3,Muito Alto,4,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.4
+717,Médio,2,Muito Alto,4,Médio,2,Médio,2,Ótimo,4,Excelente,3,2.8
+720,Alto,3,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+721,Alto,3,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.6
+722,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.4
+723,Alto,3,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+724,Muito Alto,4,Médio,2,Alto,3,Muito Alto,4,Regular,2,Excelente,3,3.0
+725,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+727,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+728,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+729,Baixo,1,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excepcional,4,2.6
+730,Alto,3,Alto,3,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.2
+731,Muito Alto,4,Médio,2,Médio,2,Médio,2,Regular,2,Excelente,3,2.4
+732,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.4
+733,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excepcional,4,2.6
+734,Alto,3,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,2.8
+738,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+741,Médio,2,Baixo,1,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,2.2
+742,Baixo,1,Baixo,1,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,2.0
+743,Alto,3,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.4
+744,Alto,3,Baixo,1,Alto,3,Baixo,1,Bom,3,Excelente,3,2.2
+746,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.2
+747,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excepcional,4,3.2
+749,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+752,Alto,3,Alto,3,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.4
+754,Muito Alto,4,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.2
+757,Alto,3,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+758,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,2.8
+760,Médio,2,Alto,3,Alto,3,Muito Alto,4,Ruim,1,Excelente,3,2.6
+762,Muito Alto,4,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+763,Muito Alto,4,Muito Alto,4,Muito Alto,4,Médio,2,Regular,2,Excepcional,4,3.2
+764,Baixo,1,Muito Alto,4,Baixo,1,Médio,2,Ruim,1,Excelente,3,1.8
+766,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+769,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.6
+771,Baixo,1,Muito Alto,4,Baixo,1,Alto,3,Ótimo,4,Excelente,3,2.6
+772,Muito Alto,4,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+773,Alto,3,Muito Alto,4,Médio,2,Alto,3,Ruim,1,Excelente,3,2.6
+775,Baixo,1,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.4
+776,Baixo,1,Alto,3,Baixo,1,Médio,2,Ótimo,4,Excelente,3,2.2
+780,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+781,Muito Alto,4,Alto,3,Médio,2,Alto,3,Regular,2,Excepcional,4,2.8
+783,Alto,3,Médio,2,Baixo,1,Baixo,1,Bom,3,Excelente,3,2.0
+784,Alto,3,Baixo,1,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.0
+785,Alto,3,Médio,2,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.2
+786,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excepcional,4,3.4
+787,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+789,Baixo,1,Baixo,1,Médio,2,Médio,2,Bom,3,Excelente,3,1.8
+791,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,3.0
+792,Muito Alto,4,Baixo,1,Baixo,1,Baixo,1,Bom,3,Excelente,3,2.0
+793,Alto,3,Médio,2,Baixo,1,Alto,3,Regular,2,Excelente,3,2.2
+796,Baixo,1,Muito Alto,4,Alto,3,Médio,2,Regular,2,Excelente,3,2.4
+797,Muito Alto,4,Médio,2,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.2
+799,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+800,Muito Alto,4,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+802,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+803,Baixo,1,Baixo,1,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,2.6
+804,Baixo,1,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.4
+805,Muito Alto,4,Baixo,1,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+806,Alto,3,Muito Alto,4,Alto,3,Baixo,1,Bom,3,Excepcional,4,2.8
+807,Médio,2,Alto,3,Muito Alto,4,Muito Alto,4,Bom,3,Excepcional,4,3.2
+808,Baixo,1,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+809,Muito Alto,4,Médio,2,Médio,2,Alto,3,Regular,2,Excelente,3,2.6
+811,Baixo,1,Alto,3,Alto,3,Muito Alto,4,Bom,3,Excepcional,4,2.8
+812,Médio,2,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+813,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excepcional,4,3.0
+815,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+816,Baixo,1,Médio,2,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.4
+817,Alto,3,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.4
+819,Baixo,1,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.2
+820,Muito Alto,4,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+823,Médio,2,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+824,Alto,3,Alto,3,Alto,3,Muito Alto,4,Bom,3,Excepcional,4,3.2
+825,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+826,Alto,3,Muito Alto,4,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.4
+827,Muito Alto,4,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.4
+828,Alto,3,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+829,Médio,2,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+830,Alto,3,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.8
+832,Alto,3,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.6
+833,Muito Alto,4,Alto,3,Médio,2,Médio,2,Regular,2,Excepcional,4,2.6
+834,Alto,3,Médio,2,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+836,Médio,2,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.6
+837,Baixo,1,Baixo,1,Alto,3,Médio,2,Regular,2,Excelente,3,1.8
+838,Muito Alto,4,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,3.0
+840,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Ótimo,4,Excelente,3,3.0
+842,Muito Alto,4,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+843,Baixo,1,Médio,2,Alto,3,Alto,3,Bom,3,Excepcional,4,2.4
+844,Muito Alto,4,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.8
+845,Alto,3,Alto,3,Médio,2,Alto,3,Ótimo,4,Excepcional,4,3.0
+846,Médio,2,Médio,2,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.2
+847,Muito Alto,4,Alto,3,Alto,3,Alto,3,Ruim,1,Excelente,3,2.8
+848,Alto,3,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.4
+850,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+851,Alto,3,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.4
+852,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+854,Baixo,1,Baixo,1,Alto,3,Muito Alto,4,Regular,2,Excelente,3,2.2
+855,Baixo,1,Baixo,1,Baixo,1,Muito Alto,4,Bom,3,Excepcional,4,2.0
+856,Baixo,1,Alto,3,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.4
+857,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+859,Muito Alto,4,Médio,2,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+861,Muito Alto,4,Médio,2,Médio,2,Médio,2,Regular,2,Excelente,3,2.4
+862,Muito Alto,4,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+864,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+865,Alto,3,Alto,3,Alto,3,Muito Alto,4,Regular,2,Excelente,3,3.0
+867,Muito Alto,4,Alto,3,Alto,3,Médio,2,Bom,3,Excepcional,4,3.0
+868,Alto,3,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.2
+869,Muito Alto,4,Médio,2,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+872,Muito Alto,4,Muito Alto,4,Baixo,1,Médio,2,Ruim,1,Excepcional,4,2.4
+874,Muito Alto,4,Baixo,1,Alto,3,Muito Alto,4,Regular,2,Excepcional,4,2.8
+875,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+878,Baixo,1,Baixo,1,Alto,3,Médio,2,Bom,3,Excepcional,4,2.0
+879,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+880,Alto,3,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excepcional,4,2.8
+881,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Regular,2,Excelente,3,2.4
+882,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.2
+885,Baixo,1,Alto,3,Baixo,1,Médio,2,Ótimo,4,Excelente,3,2.2
+887,Baixo,1,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+888,Muito Alto,4,Baixo,1,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.6
+889,Médio,2,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+893,Médio,2,Médio,2,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.6
+894,Muito Alto,4,Alto,3,Médio,2,Muito Alto,4,Regular,2,Excelente,3,3.0
+895,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.2
+896,Alto,3,Médio,2,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+897,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+899,Médio,2,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.4
+900,Muito Alto,4,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+901,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.4
+902,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Regular,2,Excelente,3,3.0
+903,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.8
+904,Médio,2,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.6
+905,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.4
+909,Muito Alto,4,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.2
+910,Médio,2,Muito Alto,4,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.2
+911,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Ruim,1,Excepcional,4,2.4
+912,Muito Alto,4,Baixo,1,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+913,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.6
+916,Muito Alto,4,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+918,Muito Alto,4,Muito Alto,4,Muito Alto,4,Médio,2,Regular,2,Excelente,3,3.2
+920,Médio,2,Baixo,1,Alto,3,Alto,3,Ótimo,4,Excepcional,4,2.6
+922,Alto,3,Alto,3,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.8
+923,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Regular,2,Excelente,3,2.8
+924,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Regular,2,Excelente,3,2.6
+925,Muito Alto,4,Muito Alto,4,Baixo,1,Médio,2,Regular,2,Excelente,3,2.6
+926,Alto,3,Médio,2,Baixo,1,Alto,3,Ótimo,4,Excelente,3,2.6
+927,Muito Alto,4,Médio,2,Alto,3,Baixo,1,Regular,2,Excelente,3,2.4
+930,Alto,3,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+932,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Ruim,1,Excepcional,4,2.6
+933,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+934,Médio,2,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+936,Alto,3,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.4
+939,Baixo,1,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.2
+940,Médio,2,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+941,Alto,3,Médio,2,Médio,2,Médio,2,Ótimo,4,Excelente,3,2.6
+942,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Ruim,1,Excepcional,4,3.2
+944,Médio,2,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.2
+945,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Regular,2,Excelente,3,2.6
+947,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.2
+949,Muito Alto,4,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+950,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+951,Médio,2,Alto,3,Alto,3,Médio,2,Bom,3,Excepcional,4,2.6
+952,Médio,2,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+954,Médio,2,Baixo,1,Médio,2,Médio,2,Regular,2,Excelente,3,1.8
+956,Baixo,1,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.2
+957,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+958,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excepcional,4,3.0
+959,Médio,2,Muito Alto,4,Médio,2,Médio,2,Ótimo,4,Excelente,3,2.8
+960,Baixo,1,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.0
+961,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Ruim,1,Excelente,3,3.0
+964,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+966,Baixo,1,Alto,3,Alto,3,Alto,3,Ótimo,4,Excelente,3,2.8
+967,Muito Alto,4,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.6
+969,Muito Alto,4,Médio,2,Baixo,1,Médio,2,Bom,3,Excelente,3,2.4
+970,Alto,3,Baixo,1,Alto,3,Médio,2,Ruim,1,Excelente,3,2.0
+972,Médio,2,Alto,3,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+974,Muito Alto,4,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+975,Alto,3,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+976,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Regular,2,Excelente,3,3.0
+977,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.8
+981,Alto,3,Alto,3,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.2
+982,Alto,3,Alto,3,Baixo,1,Alto,3,Ótimo,4,Excelente,3,2.8
+983,Muito Alto,4,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+984,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.2
+985,Alto,3,Baixo,1,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.0
+986,Médio,2,Médio,2,Muito Alto,4,Muito Alto,4,Regular,2,Excelente,3,2.8
+987,Alto,3,Alto,3,Alto,3,Muito Alto,4,Ótimo,4,Excelente,3,3.4
+990,Muito Alto,4,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+991,Baixo,1,Alto,3,Baixo,1,Médio,2,Bom,3,Excepcional,4,2.0
+992,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+994,Baixo,1,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excepcional,4,2.6
+995,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+996,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.6
+997,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excepcional,4,3.2
+998,Médio,2,Alto,3,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,2.6
+999,Alto,3,Baixo,1,Médio,2,Alto,3,Ótimo,4,Excelente,3,2.6
+1001,Médio,2,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+1002,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1003,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.4
+1004,Alto,3,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+1005,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1006,Alto,3,Alto,3,Médio,2,Alto,3,Regular,2,Excelente,3,2.6
+1007,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+1009,Alto,3,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,2.8
+1010,Médio,2,Alto,3,Muito Alto,4,Médio,2,Ruim,1,Excepcional,4,2.4
+1011,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+1012,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+1013,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1014,Alto,3,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+1015,Baixo,1,Médio,2,Alto,3,Muito Alto,4,Regular,2,Excelente,3,2.4
+1016,Baixo,1,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.2
+1017,Médio,2,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+1018,Muito Alto,4,Muito Alto,4,Médio,2,Muito Alto,4,Bom,3,Excelente,3,3.4
+1019,Baixo,1,Médio,2,Baixo,1,Baixo,1,Regular,2,Excelente,3,1.4
+1022,Alto,3,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.6
+1024,Alto,3,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.6
+1025,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+1026,Muito Alto,4,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.2
+1027,Muito Alto,4,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+1028,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Regular,2,Excepcional,4,2.4
+1029,Alto,3,Muito Alto,4,Médio,2,Alto,3,Ótimo,4,Excelente,3,3.2
+1030,Muito Alto,4,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+1032,Muito Alto,4,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.6
+1033,Médio,2,Baixo,1,Baixo,1,Baixo,1,Ruim,1,Excelente,3,1.2
+1034,Médio,2,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1035,Alto,3,Médio,2,Médio,2,Baixo,1,Bom,3,Excepcional,4,2.2
+1036,Muito Alto,4,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1037,Baixo,1,Médio,2,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,2.2
+1038,Muito Alto,4,Baixo,1,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,2.6
+1039,Muito Alto,4,Muito Alto,4,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.6
+1040,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+1042,Baixo,1,Alto,3,Alto,3,Muito Alto,4,Bom,3,Excelente,3,2.8
+1043,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1044,Muito Alto,4,Médio,2,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.8
+1045,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Ótimo,4,Excelente,3,3.4
+1046,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+1047,Muito Alto,4,Médio,2,Muito Alto,4,Muito Alto,4,Regular,2,Excelente,3,3.2
+1048,Muito Alto,4,Médio,2,Alto,3,Alto,3,Ruim,1,Excelente,3,2.6
+1049,Médio,2,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+1050,Médio,2,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.2
+1052,Alto,3,Baixo,1,Médio,2,Alto,3,Regular,2,Excelente,3,2.2
+1053,Baixo,1,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.0
+1055,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+1056,Médio,2,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excepcional,4,2.8
+1060,Alto,3,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+1061,Alto,3,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.8
+1062,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Regular,2,Excelente,3,2.4
+1066,Baixo,1,Alto,3,Médio,2,Alto,3,Regular,2,Excelente,3,2.2
+1068,Alto,3,Baixo,1,Alto,3,Médio,2,Bom,3,Excelente,3,2.4
+1069,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.6
+1070,Alto,3,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.6
+1071,Alto,3,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+1073,Muito Alto,4,Muito Alto,4,Médio,2,Médio,2,Regular,2,Excelente,3,2.8
+1074,Baixo,1,Alto,3,Médio,2,Médio,2,Ótimo,4,Excelente,3,2.4
+1076,Muito Alto,4,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,3.0
+1077,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.2
+1079,Baixo,1,Alto,3,Baixo,1,Médio,2,Regular,2,Excelente,3,1.8
+1080,Baixo,1,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excepcional,4,2.2
+1081,Alto,3,Baixo,1,Alto,3,Alto,3,Ótimo,4,Excelente,3,2.8
+1082,Baixo,1,Médio,2,Baixo,1,Médio,2,Regular,2,Excelente,3,1.6
+1083,Baixo,1,Baixo,1,Baixo,1,Médio,2,Bom,3,Excelente,3,1.6
+1084,Baixo,1,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.4
+1085,Alto,3,Médio,2,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.0
+1088,Alto,3,Alto,3,Baixo,1,Médio,2,Regular,2,Excelente,3,2.2
+1092,Muito Alto,4,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.0
+1094,Alto,3,Baixo,1,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,2.4
+1096,Médio,2,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+1097,Alto,3,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.4
+1098,Baixo,1,Médio,2,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.4
+1099,Muito Alto,4,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.2
+1100,Baixo,1,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.4
+1101,Alto,3,Baixo,1,Médio,2,Médio,2,Bom,3,Excepcional,4,2.2
+1102,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.6
+1103,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+1105,Muito Alto,4,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.2
+1106,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Ótimo,4,Excelente,3,3.4
+1107,Alto,3,Baixo,1,Alto,3,Alto,3,Regular,2,Excepcional,4,2.4
+1108,Médio,2,Baixo,1,Médio,2,Médio,2,Bom,3,Excepcional,4,2.0
+1109,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1111,Médio,2,Baixo,1,Baixo,1,Médio,2,Bom,3,Excelente,3,1.8
+1113,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1114,Médio,2,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1115,Muito Alto,4,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.2
+1116,Muito Alto,4,Baixo,1,Alto,3,Muito Alto,4,Regular,2,Excepcional,4,2.8
+1117,Alto,3,Médio,2,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+1118,Médio,2,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1119,Alto,3,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.6
+1120,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.8
+1121,Médio,2,Muito Alto,4,Médio,2,Alto,3,Regular,2,Excelente,3,2.6
+1124,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1125,Médio,2,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1126,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+1127,Muito Alto,4,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1128,Alto,3,Alto,3,Baixo,1,Médio,2,Ótimo,4,Excelente,3,2.6
+1131,Médio,2,Muito Alto,4,Alto,3,Médio,2,Ótimo,4,Excelente,3,3.0
+1132,Médio,2,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+1133,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.4
+1135,Muito Alto,4,Alto,3,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,3.0
+1136,Médio,2,Baixo,1,Baixo,1,Médio,2,Ruim,1,Excelente,3,1.4
+1137,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.6
+1138,Médio,2,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,2.6
+1140,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.2
+1143,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+1148,Muito Alto,4,Médio,2,Baixo,1,Baixo,1,Bom,3,Excelente,3,2.2
+1150,Muito Alto,4,Médio,2,Alto,3,Médio,2,Regular,2,Excelente,3,2.6
+1152,Alto,3,Alto,3,Muito Alto,4,Muito Alto,4,Ótimo,4,Excelente,3,3.6
+1154,Alto,3,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+1156,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+1157,Baixo,1,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,1.8
+1158,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+1160,Alto,3,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+1161,Muito Alto,4,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,3.0
+1162,Alto,3,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.0
+1163,Alto,3,Médio,2,Baixo,1,Alto,3,Regular,2,Excepcional,4,2.2
+1164,Alto,3,Alto,3,Médio,2,Alto,3,Ruim,1,Excelente,3,2.4
+1165,Baixo,1,Muito Alto,4,Baixo,1,Médio,2,Ruim,1,Excelente,3,1.8
+1166,Alto,3,Médio,2,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+1167,Baixo,1,Alto,3,Médio,2,Alto,3,Regular,2,Excelente,3,2.2
+1171,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,2.8
+1172,Alto,3,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,2.8
+1173,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.2
+1175,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.2
+1177,Muito Alto,4,Baixo,1,Médio,2,Muito Alto,4,Bom,3,Excepcional,4,2.8
+1179,Alto,3,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.4
+1180,Muito Alto,4,Alto,3,Muito Alto,4,Médio,2,Ruim,1,Excelente,3,2.8
+1182,Médio,2,Alto,3,Médio,2,Médio,2,Ótimo,4,Excelente,3,2.6
+1184,Baixo,1,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excepcional,4,2.6
+1185,Muito Alto,4,Muito Alto,4,Médio,2,Médio,2,Ótimo,4,Excelente,3,3.2
+1188,Alto,3,Baixo,1,Médio,2,Baixo,1,Regular,2,Excelente,3,1.8
+1190,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+1191,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1192,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+1193,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excepcional,4,2.6
+1195,Alto,3,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.4
+1196,Muito Alto,4,Muito Alto,4,Médio,2,Médio,2,Regular,2,Excelente,3,2.8
+1198,Alto,3,Baixo,1,Baixo,1,Médio,2,Regular,2,Excelente,3,1.8
+1200,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1201,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+1202,Muito Alto,4,Médio,2,Baixo,1,Baixo,1,Regular,2,Excelente,3,2.0
+1203,Muito Alto,4,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.8
+1204,Baixo,1,Alto,3,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.2
+1206,Alto,3,Muito Alto,4,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,3.0
+1207,Alto,3,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1210,Baixo,1,Baixo,1,Baixo,1,Médio,2,Ruim,1,Excelente,3,1.2
+1211,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+1212,Médio,2,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1215,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excepcional,4,2.8
+1216,Baixo,1,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+1217,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+1218,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1219,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Ruim,1,Excelente,3,2.2
+1220,Alto,3,Médio,2,Baixo,1,Alto,3,Regular,2,Excelente,3,2.2
+1221,Alto,3,Alto,3,Alto,3,Baixo,1,Bom,3,Excelente,3,2.6
+1224,Alto,3,Alto,3,Baixo,1,Alto,3,Regular,2,Excelente,3,2.4
+1225,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excepcional,4,3.2
+1226,Muito Alto,4,Alto,3,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.6
+1228,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+1231,Baixo,1,Muito Alto,4,Baixo,1,Muito Alto,4,Ótimo,4,Excelente,3,2.8
+1233,Muito Alto,4,Médio,2,Médio,2,Muito Alto,4,Bom,3,Excelente,3,3.0
+1234,Médio,2,Alto,3,Alto,3,Médio,2,Bom,3,Excepcional,4,2.6
+1235,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1237,Baixo,1,Alto,3,Alto,3,Baixo,1,Bom,3,Excepcional,4,2.2
+1238,Muito Alto,4,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+1239,Médio,2,Médio,2,Médio,2,Médio,2,Ótimo,4,Excelente,3,2.4
+1240,Muito Alto,4,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+1241,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.6
+1242,Baixo,1,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.2
+1243,Muito Alto,4,Alto,3,Médio,2,Médio,2,Regular,2,Excelente,3,2.6
+1244,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.2
+1245,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Ruim,1,Excelente,3,2.4
+1246,Muito Alto,4,Baixo,1,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.2
+1248,Médio,2,Baixo,1,Médio,2,Médio,2,Ótimo,4,Excepcional,4,2.2
+1249,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+1250,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,3.0
+1251,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.6
+1252,Baixo,1,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.2
+1254,Muito Alto,4,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.2
+1255,Muito Alto,4,Alto,3,Médio,2,Baixo,1,Bom,3,Excelente,3,2.6
+1256,Alto,3,Baixo,1,Alto,3,Médio,2,Ótimo,4,Excelente,3,2.6
+1257,Médio,2,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+1258,Médio,2,Muito Alto,4,Alto,3,Muito Alto,4,Regular,2,Excelente,3,3.0
+1259,Alto,3,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+1260,Muito Alto,4,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+1263,Muito Alto,4,Muito Alto,4,Alto,3,Médio,2,Ótimo,4,Excelente,3,3.4
+1264,Muito Alto,4,Muito Alto,4,Médio,2,Médio,2,Regular,2,Excelente,3,2.8
+1265,Alto,3,Alto,3,Muito Alto,4,Muito Alto,4,Regular,2,Excelente,3,3.2
+1267,Médio,2,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+1268,Alto,3,Muito Alto,4,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.6
+1269,Muito Alto,4,Médio,2,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.4
+1270,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.4
+1273,Muito Alto,4,Alto,3,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,3.0
+1275,Muito Alto,4,Alto,3,Médio,2,Alto,3,Regular,2,Excepcional,4,2.8
+1277,Médio,2,Baixo,1,Baixo,1,Baixo,1,Bom,3,Excelente,3,1.6
+1278,Médio,2,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+1279,Alto,3,Baixo,1,Alto,3,Médio,2,Ruim,1,Excepcional,4,2.0
+1280,Médio,2,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.8
+1281,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1282,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Regular,2,Excepcional,4,2.4
+1283,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.4
+1285,Médio,2,Alto,3,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.0
+1286,Alto,3,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+1288,Baixo,1,Alto,3,Muito Alto,4,Muito Alto,4,Regular,2,Excelente,3,2.8
+1289,Médio,2,Alto,3,Muito Alto,4,Médio,2,Ótimo,4,Excelente,3,3.0
+1291,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+1292,Médio,2,Médio,2,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.0
+1293,Muito Alto,4,Muito Alto,4,Muito Alto,4,Médio,2,Ótimo,4,Excelente,3,3.6
+1294,Médio,2,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1295,Muito Alto,4,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1296,Muito Alto,4,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,3.0
+1297,Alto,3,Médio,2,Médio,2,Médio,2,Regular,2,Excelente,3,2.2
+1298,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1299,Alto,3,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+1301,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+1303,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+1304,Muito Alto,4,Alto,3,Alto,3,Muito Alto,4,Ótimo,4,Excelente,3,3.6
+1306,Médio,2,Médio,2,Alto,3,Alto,3,Bom,3,Excepcional,4,2.6
+1307,Médio,2,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+1308,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1309,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+1310,Baixo,1,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+1311,Muito Alto,4,Baixo,1,Baixo,1,Médio,2,Bom,3,Excelente,3,2.2
+1312,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+1314,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.0
+1315,Muito Alto,4,Alto,3,Baixo,1,Baixo,1,Bom,3,Excelente,3,2.4
+1317,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+1318,Médio,2,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.8
+1319,Médio,2,Médio,2,Alto,3,Alto,3,Regular,2,Excelente,3,2.4
+1321,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,2.6
+1322,Alto,3,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+1324,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Regular,2,Excelente,3,2.6
+1329,Médio,2,Alto,3,Baixo,1,Baixo,1,Bom,3,Excelente,3,2.0
+1331,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Ótimo,4,Excelente,3,2.8
+1333,Baixo,1,Baixo,1,Alto,3,Alto,3,Ótimo,4,Excelente,3,2.4
+1334,Alto,3,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+1336,Alto,3,Muito Alto,4,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,3.0
+1338,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+1340,Alto,3,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+1344,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.4
+1346,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+1349,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1350,Alto,3,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+1352,Médio,2,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+1355,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.6
+1356,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.0
+1358,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+1360,Baixo,1,Alto,3,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.4
+1361,Médio,2,Médio,2,Alto,3,Alto,3,Bom,3,Excepcional,4,2.6
+1362,Baixo,1,Baixo,1,Muito Alto,4,Muito Alto,4,Regular,2,Excelente,3,2.4
+1363,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.4
+1364,Muito Alto,4,Alto,3,Médio,2,Muito Alto,4,Bom,3,Excelente,3,3.2
+1367,Médio,2,Muito Alto,4,Médio,2,Médio,2,Regular,2,Excelente,3,2.4
+1368,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.6
+1369,Muito Alto,4,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,3.0
+1371,Muito Alto,4,Muito Alto,4,Médio,2,Baixo,1,Bom,3,Excepcional,4,2.8
+1372,Alto,3,Baixo,1,Alto,3,Muito Alto,4,Regular,2,Excelente,3,2.6
+1373,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+1374,Alto,3,Baixo,1,Alto,3,Médio,2,Bom,3,Excepcional,4,2.4
+1375,Alto,3,Médio,2,Médio,2,Muito Alto,4,Bom,3,Excepcional,4,2.8
+1377,Alto,3,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+1379,Muito Alto,4,Alto,3,Alto,3,Médio,2,Ótimo,4,Excelente,3,3.2
+1380,Alto,3,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+1382,Alto,3,Muito Alto,4,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.6
+1383,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.6
+1387,Baixo,1,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.4
+1389,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.2
+1390,Muito Alto,4,Baixo,1,Muito Alto,4,Médio,2,Ótimo,4,Excelente,3,3.0
+1391,Médio,2,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+1392,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Regular,2,Excelente,3,2.8
+1394,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+1395,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Ótimo,4,Excelente,3,2.8
+1396,Médio,2,Alto,3,Baixo,1,Alto,3,Regular,2,Excelente,3,2.2
+1397,Alto,3,Alto,3,Médio,2,Alto,3,Bom,3,Excepcional,4,2.8
+1399,Alto,3,Baixo,1,Médio,2,Muito Alto,4,Regular,2,Excelente,3,2.4
+1401,Alto,3,Muito Alto,4,Médio,2,Muito Alto,4,Regular,2,Excelente,3,3.0
+1402,Alto,3,Baixo,1,Baixo,1,Médio,2,Ruim,1,Excelente,3,1.6
+1403,Muito Alto,4,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.4
+1405,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1407,Muito Alto,4,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+1408,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+1409,Baixo,1,Alto,3,Alto,3,Alto,3,Ruim,1,Excelente,3,2.2
+1411,Alto,3,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+1412,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+1415,Muito Alto,4,Baixo,1,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+1417,Baixo,1,Alto,3,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.0
+1419,Baixo,1,Médio,2,Baixo,1,Médio,2,Regular,2,Excelente,3,1.6
+1420,Baixo,1,Baixo,1,Baixo,1,Médio,2,Bom,3,Excepcional,4,1.6
+1421,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+1422,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.4
+1423,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excepcional,4,2.8
+1424,Muito Alto,4,Médio,2,Muito Alto,4,Muito Alto,4,Ótimo,4,Excelente,3,3.6
+1425,Médio,2,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.6
+1427,Alto,3,Médio,2,Médio,2,Baixo,1,Bom,3,Excelente,3,2.2
+1428,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+1430,Médio,2,Baixo,1,Alto,3,Alto,3,Ótimo,4,Excelente,3,2.6
+1431,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1433,Médio,2,Baixo,1,Alto,3,Médio,2,Ótimo,4,Excelente,3,2.4
+1434,Baixo,1,Médio,2,Médio,2,Alto,3,Ótimo,4,Excelente,3,2.4
+1435,Muito Alto,4,Baixo,1,Alto,3,Médio,2,Regular,2,Excelente,3,2.4
+1436,Baixo,1,Alto,3,Baixo,1,Médio,2,Regular,2,Excelente,3,1.8
+1438,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+1439,Baixo,1,Baixo,1,Baixo,1,Médio,2,Bom,3,Excelente,3,1.6
+1440,Alto,3,Alto,3,Baixo,1,Muito Alto,4,Ruim,1,Excelente,3,2.4
+1441,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Ótimo,4,Excepcional,4,2.6
+1443,Alto,3,Baixo,1,Médio,2,Alto,3,Ótimo,4,Excelente,3,2.6
+1445,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+1446,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+1447,Médio,2,Muito Alto,4,Baixo,1,Médio,2,Regular,2,Excelente,3,2.2
+1448,Alto,3,Médio,2,Baixo,1,Muito Alto,4,Regular,2,Excelente,3,2.4
+1449,Alto,3,Alto,3,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.2
+1453,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+1457,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Ótimo,4,Excelente,3,2.6
+1458,Baixo,1,Baixo,1,Médio,2,Médio,2,Ótimo,4,Excepcional,4,2.0
+1459,Médio,2,Alto,3,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,2.6
+1460,Baixo,1,Médio,2,Médio,2,Baixo,1,Bom,3,Excelente,3,1.8
+1461,Médio,2,Muito Alto,4,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.4
+1464,Muito Alto,4,Médio,2,Alto,3,Alto,3,Ruim,1,Excelente,3,2.6
+1465,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.4
+1466,Baixo,1,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+1467,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1468,Médio,2,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.8
+1469,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1471,Alto,3,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+1472,Médio,2,Muito Alto,4,Médio,2,Muito Alto,4,Regular,2,Excelente,3,2.8
+1473,Alto,3,Baixo,1,Médio,2,Alto,3,Regular,2,Excelente,3,2.2
+1474,Alto,3,Alto,3,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.2
+1475,Médio,2,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+1477,Baixo,1,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+1478,Baixo,1,Muito Alto,4,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,2.6
+1479,Alto,3,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+1480,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1481,Alto,3,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.4
+1482,Alto,3,Alto,3,Médio,2,Alto,3,Regular,2,Excelente,3,2.6
+1483,Alto,3,Médio,2,Baixo,1,Muito Alto,4,Regular,2,Excepcional,4,2.4
+1484,Médio,2,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+1485,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.4
+1486,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.0
+1487,Médio,2,Baixo,1,Baixo,1,Alto,3,Ruim,1,Excelente,3,1.6
+1489,Médio,2,Baixo,1,Alto,3,Médio,2,Ótimo,4,Excepcional,4,2.4
+1492,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+1494,Baixo,1,Médio,2,Alto,3,Alto,3,Regular,2,Excelente,3,2.2
+1495,Médio,2,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1496,Alto,3,Médio,2,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+1497,Alto,3,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.8
+1499,Alto,3,Alto,3,Baixo,1,Alto,3,Ótimo,4,Excepcional,4,2.8
+1501,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+1502,Médio,2,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.4
+1503,Alto,3,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+1504,Baixo,1,Alto,3,Alto,3,Médio,2,Regular,2,Excelente,3,2.2
+1506,Alto,3,Baixo,1,Muito Alto,4,Médio,2,Ruim,1,Excelente,3,2.2
+1507,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1509,Baixo,1,Alto,3,Baixo,1,Médio,2,Bom,3,Excepcional,4,2.0
+1513,Médio,2,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1514,Médio,2,Alto,3,Médio,2,Baixo,1,Regular,2,Excelente,3,2.0
+1515,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+1516,Muito Alto,4,Alto,3,Médio,2,Alto,3,Ótimo,4,Excepcional,4,3.2
+1520,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.6
+1522,Baixo,1,Baixo,1,Alto,3,Médio,2,Ruim,1,Excelente,3,1.6
+1523,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.0
+1525,Médio,2,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1527,Médio,2,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.2
+1529,Médio,2,Muito Alto,4,Muito Alto,4,Médio,2,Ruim,1,Excelente,3,2.6
+1533,Alto,3,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+1534,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Ruim,1,Excelente,3,2.2
+1535,Alto,3,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.2
+1537,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Ruim,1,Excelente,3,2.4
+1539,Muito Alto,4,Alto,3,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,3.0
+1541,Alto,3,Médio,2,Médio,2,Alto,3,Bom,3,Excepcional,4,2.6
+1542,Médio,2,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.4
+1543,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+1544,Baixo,1,Alto,3,Alto,3,Baixo,1,Bom,3,Excelente,3,2.2
+1545,Médio,2,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+1546,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.6
+1547,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Ruim,1,Excelente,3,3.0
+1548,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,2.6
+1549,Alto,3,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+1550,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.4
+1551,Baixo,1,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.2
+1552,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.4
+1553,Médio,2,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.0
+1554,Alto,3,Médio,2,Baixo,1,Médio,2,Bom,3,Excepcional,4,2.2
+1555,Médio,2,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.4
+1556,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excepcional,4,3.2
+1557,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1558,Alto,3,Alto,3,Baixo,1,Muito Alto,4,Regular,2,Excelente,3,2.6
+1560,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Ruim,1,Excelente,3,2.0
+1562,Baixo,1,Médio,2,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.4
+1563,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1564,Baixo,1,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,2.4
+1568,Médio,2,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+1569,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.4
+1572,Muito Alto,4,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.8
+1573,Médio,2,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+1574,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+1576,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.6
+1577,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Ruim,1,Excelente,3,2.4
+1578,Muito Alto,4,Alto,3,Alto,3,Médio,2,Bom,3,Excepcional,4,3.0
+1580,Muito Alto,4,Médio,2,Médio,2,Alto,3,Regular,2,Excelente,3,2.6
+1581,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.4
+1582,Médio,2,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1583,Médio,2,Médio,2,Médio,2,Alto,3,Ótimo,4,Excelente,3,2.6
+1585,Alto,3,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+1586,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.6
+1587,Alto,3,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+1588,Alto,3,Muito Alto,4,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,3.0
+1590,Muito Alto,4,Baixo,1,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.2
+1591,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1592,Alto,3,Muito Alto,4,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.6
+1594,Baixo,1,Baixo,1,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,2.6
+1595,Muito Alto,4,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excepcional,4,3.4
+1596,Alto,3,Médio,2,Muito Alto,4,Muito Alto,4,Regular,2,Excelente,3,3.0
+1597,Alto,3,Muito Alto,4,Médio,2,Médio,2,Regular,2,Excelente,3,2.6
+1598,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1599,Médio,2,Muito Alto,4,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.2
+1601,Muito Alto,4,Alto,3,Muito Alto,4,Médio,2,Regular,2,Excelente,3,3.0
+1602,Baixo,1,Muito Alto,4,Médio,2,Muito Alto,4,Ruim,1,Excelente,3,2.4
+1604,Médio,2,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1605,Alto,3,Médio,2,Médio,2,Médio,2,Regular,2,Excelente,3,2.2
+1606,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1607,Muito Alto,4,Médio,2,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.4
+1608,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+1609,Médio,2,Médio,2,Médio,2,Médio,2,Regular,2,Excelente,3,2.0
+1611,Baixo,1,Alto,3,Baixo,1,Baixo,1,Bom,3,Excelente,3,1.8
+1612,Baixo,1,Baixo,1,Baixo,1,Médio,2,Bom,3,Excelente,3,1.6
+1613,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1614,Alto,3,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+1615,Muito Alto,4,Alto,3,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,3.0
+1617,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.6
+1618,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.6
+1619,Baixo,1,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.2
+1621,Baixo,1,Médio,2,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,2.8
+1622,Baixo,1,Médio,2,Médio,2,Baixo,1,Regular,2,Excepcional,4,1.6
+1623,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+1624,Muito Alto,4,Médio,2,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.2
+1625,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+1627,Alto,3,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+1628,Alto,3,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.6
+1630,Alto,3,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+1631,Alto,3,Alto,3,Baixo,1,Alto,3,Regular,2,Excelente,3,2.4
+1633,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Ruim,1,Excelente,3,2.4
+1635,Muito Alto,4,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.8
+1638,Alto,3,Muito Alto,4,Muito Alto,4,Médio,2,Ótimo,4,Excelente,3,3.4
+1639,Baixo,1,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+1640,Médio,2,Médio,2,Baixo,1,Alto,3,Ruim,1,Excelente,3,1.8
+1641,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.2
+1642,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1644,Muito Alto,4,Alto,3,Médio,2,Médio,2,Bom,3,Excepcional,4,2.8
+1645,Muito Alto,4,Baixo,1,Muito Alto,4,Baixo,1,Regular,2,Excelente,3,2.4
+1646,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1647,Alto,3,Médio,2,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,2.6
+1648,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+1649,Baixo,1,Baixo,1,Médio,2,Alto,3,Ruim,1,Excelente,3,1.6
+1650,Alto,3,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.8
+1651,Baixo,1,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.4
+1653,Alto,3,Muito Alto,4,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.4
+1654,Médio,2,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excepcional,4,3.0
+1655,Médio,2,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.2
+1656,Baixo,1,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+1657,Alto,3,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+1658,Médio,2,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1659,Médio,2,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.4
+1661,Alto,3,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.6
+1662,Alto,3,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,3.0
+1664,Baixo,1,Muito Alto,4,Baixo,1,Muito Alto,4,Bom,3,Excepcional,4,2.6
+1665,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excepcional,4,2.8
+1666,Alto,3,Alto,3,Baixo,1,Médio,2,Bom,3,Excepcional,4,2.4
+1667,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Ótimo,4,Excepcional,4,3.2
+1668,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.8
+1669,Médio,2,Baixo,1,Médio,2,Médio,2,Regular,2,Excelente,3,1.8
+1670,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.4
+1671,Médio,2,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+1673,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+1674,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+1675,Médio,2,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excepcional,4,2.6
+1676,Médio,2,Médio,2,Alto,3,Muito Alto,4,Bom,3,Excelente,3,2.8
+1677,Alto,3,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+1678,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1680,Baixo,1,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+1681,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excepcional,4,3.2
+1682,Alto,3,Baixo,1,Médio,2,Alto,3,Regular,2,Excelente,3,2.2
+1683,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+1684,Alto,3,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.6
+1687,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.2
+1689,Muito Alto,4,Médio,2,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.2
+1691,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+1692,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+1693,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excepcional,4,3.4
+1694,Médio,2,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.4
+1696,Muito Alto,4,Médio,2,Alto,3,Médio,2,Ótimo,4,Excelente,3,3.0
+1697,Muito Alto,4,Alto,3,Alto,3,Baixo,1,Ótimo,4,Excepcional,4,3.0
+1698,Médio,2,Médio,2,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.0
+1700,Muito Alto,4,Alto,3,Alto,3,Baixo,1,Regular,2,Excelente,3,2.6
+1701,Muito Alto,4,Médio,2,Médio,2,Médio,2,Bom,3,Excelente,3,2.6
+1702,Muito Alto,4,Alto,3,Médio,2,Alto,3,Bom,3,Excepcional,4,3.0
+1703,Muito Alto,4,Alto,3,Médio,2,Muito Alto,4,Bom,3,Excelente,3,3.2
+1704,Muito Alto,4,Baixo,1,Alto,3,Médio,2,Ótimo,4,Excelente,3,2.8
+1706,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,3.0
+1707,Alto,3,Alto,3,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.4
+1708,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+1709,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+1710,Muito Alto,4,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+1712,Alto,3,Alto,3,Muito Alto,4,Médio,2,Regular,2,Excepcional,4,2.8
+1714,Alto,3,Muito Alto,4,Alto,3,Baixo,1,Bom,3,Excelente,3,2.8
+1716,Alto,3,Alto,3,Alto,3,Baixo,1,Ruim,1,Excelente,3,2.2
+1718,Alto,3,Muito Alto,4,Alto,3,Baixo,1,Ótimo,4,Excelente,3,3.0
+1719,Médio,2,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.8
+1720,Alto,3,Baixo,1,Baixo,1,Alto,3,Regular,2,Excelente,3,2.0
+1721,Alto,3,Médio,2,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.2
+1722,Médio,2,Alto,3,Médio,2,Baixo,1,Bom,3,Excelente,3,2.2
+1724,Baixo,1,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.2
+1725,Baixo,1,Médio,2,Médio,2,Alto,3,Ótimo,4,Excelente,3,2.4
+1727,Médio,2,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1728,Alto,3,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+1729,Muito Alto,4,Médio,2,Médio,2,Alto,3,Regular,2,Excelente,3,2.6
+1731,Médio,2,Alto,3,Muito Alto,4,Alto,3,Ruim,1,Excelente,3,2.6
+1732,Muito Alto,4,Alto,3,Médio,2,Alto,3,Regular,2,Excelente,3,2.8
+1733,Baixo,1,Médio,2,Médio,2,Médio,2,Bom,3,Excelente,3,2.0
+1734,Médio,2,Baixo,1,Médio,2,Baixo,1,Bom,3,Excelente,3,1.8
+1735,Médio,2,Alto,3,Alto,3,Alto,3,Ruim,1,Excelente,3,2.4
+1736,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excepcional,4,3.4
+1737,Muito Alto,4,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.6
+1739,Alto,3,Muito Alto,4,Alto,3,Baixo,1,Ruim,1,Excelente,3,2.4
+1740,Médio,2,Médio,2,Médio,2,Alto,3,Regular,2,Excelente,3,2.2
+1744,Alto,3,Alto,3,Alto,3,Baixo,1,Ótimo,4,Excepcional,4,2.8
+1745,Baixo,1,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.8
+1746,Muito Alto,4,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1747,Muito Alto,4,Alto,3,Alto,3,Médio,2,Regular,2,Excelente,3,2.8
+1749,Alto,3,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+1751,Muito Alto,4,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+1752,Médio,2,Médio,2,Alto,3,Baixo,1,Bom,3,Excelente,3,2.2
+1753,Alto,3,Muito Alto,4,Muito Alto,4,Muito Alto,4,Ótimo,4,Excelente,3,3.8
+1754,Baixo,1,Alto,3,Baixo,1,Médio,2,Bom,3,Excelente,3,2.0
+1755,Muito Alto,4,Muito Alto,4,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,3.2
+1756,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+1757,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.6
+1758,Baixo,1,Baixo,1,Alto,3,Alto,3,Regular,2,Excepcional,4,2.0
+1760,Médio,2,Alto,3,Médio,2,Médio,2,Regular,2,Excelente,3,2.2
+1761,Alto,3,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.2
+1762,Baixo,1,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+1763,Alto,3,Alto,3,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.2
+1764,Médio,2,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+1766,Muito Alto,4,Médio,2,Alto,3,Baixo,1,Bom,3,Excelente,3,2.6
+1767,Alto,3,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+1768,Médio,2,Médio,2,Médio,2,Alto,3,Regular,2,Excepcional,4,2.2
+1770,Baixo,1,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.2
+1771,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Regular,2,Excelente,3,3.0
+1772,Baixo,1,Alto,3,Médio,2,Alto,3,Bom,3,Excepcional,4,2.4
+1774,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+1775,Alto,3,Baixo,1,Muito Alto,4,Médio,2,Regular,2,Excepcional,4,2.4
+1778,Muito Alto,4,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+1779,Muito Alto,4,Muito Alto,4,Baixo,1,Baixo,1,Bom,3,Excelente,3,2.6
+1780,Médio,2,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+1782,Alto,3,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,2.8
+1783,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+1784,Muito Alto,4,Baixo,1,Baixo,1,Médio,2,Bom,3,Excelente,3,2.2
+1786,Alto,3,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1787,Médio,2,Médio,2,Baixo,1,Médio,2,Bom,3,Excelente,3,2.0
+1789,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+1790,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1792,Médio,2,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+1794,Médio,2,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+1797,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1798,Baixo,1,Muito Alto,4,Médio,2,Muito Alto,4,Bom,3,Excelente,3,2.8
+1799,Muito Alto,4,Alto,3,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.4
+1800,Alto,3,Alto,3,Alto,3,Alto,3,Bom,3,Excepcional,4,3.0
+1801,Médio,2,Médio,2,Alto,3,Médio,2,Bom,3,Excelente,3,2.4
+1802,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.6
+1803,Baixo,1,Médio,2,Alto,3,Muito Alto,4,Regular,2,Excelente,3,2.4
+1804,Muito Alto,4,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1805,Médio,2,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.6
+1807,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+1809,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Ruim,1,Excelente,3,2.2
+1812,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1813,Alto,3,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.4
+1814,Médio,2,Médio,2,Baixo,1,Muito Alto,4,Ruim,1,Excelente,3,2.0
+1815,Alto,3,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.4
+1816,Alto,3,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+1818,Médio,2,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1821,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Ótimo,4,Excepcional,4,3.4
+1822,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1823,Alto,3,Médio,2,Alto,3,Muito Alto,4,Bom,3,Excepcional,4,3.0
+1824,Médio,2,Médio,2,Muito Alto,4,Alto,3,Regular,2,Excepcional,4,2.6
+1826,Alto,3,Médio,2,Médio,2,Baixo,1,Ótimo,4,Excelente,3,2.4
+1827,Médio,2,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+1829,Baixo,1,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.2
+1830,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Regular,2,Excelente,3,3.0
+1833,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.4
+1834,Baixo,1,Alto,3,Alto,3,Alto,3,Bom,3,Excepcional,4,2.6
+1835,Muito Alto,4,Médio,2,Baixo,1,Baixo,1,Regular,2,Excepcional,4,2.0
+1836,Muito Alto,4,Alto,3,Baixo,1,Alto,3,Bom,3,Excelente,3,2.8
+1837,Alto,3,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+1839,Alto,3,Médio,2,Alto,3,Alto,3,Ruim,1,Excelente,3,2.4
+1842,Baixo,1,Muito Alto,4,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.0
+1844,Baixo,1,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.2
+1845,Alto,3,Alto,3,Médio,2,Alto,3,Ótimo,4,Excepcional,4,3.0
+1847,Médio,2,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,3.2
+1849,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Bom,3,Excepcional,4,2.8
+1850,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+1852,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Ótimo,4,Excelente,3,3.4
+1853,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.6
+1854,Alto,3,Alto,3,Médio,2,Alto,3,Regular,2,Excepcional,4,2.6
+1856,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1857,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+1858,Muito Alto,4,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+1859,Alto,3,Muito Alto,4,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,3.0
+1860,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1862,Médio,2,Alto,3,Alto,3,Médio,2,Regular,2,Excelente,3,2.4
+1863,Baixo,1,Baixo,1,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,2.6
+1864,Alto,3,Médio,2,Muito Alto,4,Médio,2,Bom,3,Excepcional,4,2.8
+1865,Médio,2,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+1866,Alto,3,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.6
+1867,Médio,2,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+1868,Muito Alto,4,Muito Alto,4,Médio,2,Médio,2,Regular,2,Excepcional,4,2.8
+1869,Médio,2,Alto,3,Alto,3,Alto,3,Bom,3,Excepcional,4,2.8
+1870,Baixo,1,Muito Alto,4,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.6
+1871,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.2
+1873,Muito Alto,4,Médio,2,Médio,2,Médio,2,Ótimo,4,Excepcional,4,2.8
+1875,Médio,2,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1876,Muito Alto,4,Médio,2,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+1878,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excepcional,4,2.6
+1880,Alto,3,Médio,2,Baixo,1,Médio,2,Bom,3,Excelente,3,2.2
+1881,Alto,3,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+1882,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1883,Baixo,1,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+1885,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excepcional,4,2.8
+1886,Médio,2,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+1888,Muito Alto,4,Médio,2,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.8
+1890,Muito Alto,4,Médio,2,Muito Alto,4,Médio,2,Regular,2,Excepcional,4,2.8
+1892,Baixo,1,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,1.8
+1893,Alto,3,Médio,2,Alto,3,Médio,2,Regular,2,Excelente,3,2.4
+1898,Alto,3,Baixo,1,Médio,2,Muito Alto,4,Regular,2,Excelente,3,2.4
+1900,Muito Alto,4,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,3.2
+1903,Baixo,1,Médio,2,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,2.8
+1905,Baixo,1,Muito Alto,4,Médio,2,Baixo,1,Bom,3,Excepcional,4,2.2
+1907,Muito Alto,4,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+1908,Médio,2,Alto,3,Alto,3,Médio,2,Ruim,1,Excelente,3,2.2
+1909,Médio,2,Alto,3,Alto,3,Alto,3,Bom,3,Excepcional,4,2.8
+1911,Baixo,1,Alto,3,Médio,2,Alto,3,Ótimo,4,Excelente,3,2.6
+1912,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1915,Muito Alto,4,Muito Alto,4,Alto,3,Médio,2,Regular,2,Excelente,3,3.0
+1916,Alto,3,Baixo,1,Médio,2,Muito Alto,4,Regular,2,Excelente,3,2.4
+1918,Muito Alto,4,Alto,3,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,3.0
+1922,Alto,3,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1924,Alto,3,Médio,2,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+1927,Muito Alto,4,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,3.0
+1928,Baixo,1,Alto,3,Muito Alto,4,Muito Alto,4,Bom,3,Excelente,3,3.0
+1929,Alto,3,Baixo,1,Alto,3,Baixo,1,Bom,3,Excelente,3,2.2
+1931,Médio,2,Médio,2,Alto,3,Alto,3,Regular,2,Excelente,3,2.4
+1932,Muito Alto,4,Alto,3,Médio,2,Médio,2,Bom,3,Excelente,3,2.8
+1933,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1934,Médio,2,Alto,3,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.0
+1935,Baixo,1,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+1936,Baixo,1,Baixo,1,Muito Alto,4,Alto,3,Bom,3,Excepcional,4,2.4
+1937,Médio,2,Muito Alto,4,Alto,3,Médio,2,Bom,3,Excelente,3,2.8
+1938,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+1939,Alto,3,Baixo,1,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,2.4
+1940,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.4
+1941,Muito Alto,4,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.2
+1943,Muito Alto,4,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+1944,Médio,2,Baixo,1,Baixo,1,Médio,2,Bom,3,Excelente,3,1.8
+1945,Baixo,1,Médio,2,Muito Alto,4,Alto,3,Ruim,1,Excelente,3,2.2
+1947,Alto,3,Alto,3,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+1948,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.0
+1949,Médio,2,Baixo,1,Médio,2,Muito Alto,4,Bom,3,Excepcional,4,2.4
+1950,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Regular,2,Excepcional,4,2.2
+1951,Alto,3,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+1952,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Regular,2,Excelente,3,2.6
+1954,Baixo,1,Baixo,1,Baixo,1,Alto,3,Regular,2,Excelente,3,1.6
+1955,Muito Alto,4,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,3.0
+1956,Baixo,1,Muito Alto,4,Médio,2,Baixo,1,Bom,3,Excepcional,4,2.2
+1960,Muito Alto,4,Alto,3,Baixo,1,Médio,2,Regular,2,Excelente,3,2.4
+1961,Baixo,1,Baixo,1,Baixo,1,Médio,2,Regular,2,Excelente,3,1.4
+1962,Muito Alto,4,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.4
+1965,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,3.0
+1966,Muito Alto,4,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excepcional,4,3.0
+1967,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1968,Baixo,1,Baixo,1,Médio,2,Alto,3,Regular,2,Excelente,3,1.8
+1969,Alto,3,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.4
+1970,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excepcional,4,3.2
+1971,Alto,3,Baixo,1,Médio,2,Alto,3,Bom,3,Excelente,3,2.4
+1972,Médio,2,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+1973,Médio,2,Alto,3,Baixo,1,Muito Alto,4,Bom,3,Excelente,3,2.6
+1974,Muito Alto,4,Muito Alto,4,Alto,3,Baixo,1,Bom,3,Excelente,3,3.0
+1975,Baixo,1,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.0
+1976,Alto,3,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.2
+1979,Alto,3,Alto,3,Alto,3,Alto,3,Ótimo,4,Excepcional,4,3.2
+1980,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+1981,Alto,3,Médio,2,Médio,2,Médio,2,Regular,2,Excelente,3,2.2
+1982,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Ótimo,4,Excelente,3,3.6
+1985,Alto,3,Muito Alto,4,Baixo,1,Alto,3,Ótimo,4,Excelente,3,3.0
+1986,Médio,2,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+1987,Médio,2,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+1989,Médio,2,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,2.8
+1992,Alto,3,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.0
+1993,Alto,3,Baixo,1,Médio,2,Alto,3,Bom,3,Excepcional,4,2.4
+1994,Alto,3,Médio,2,Alto,3,Médio,2,Regular,2,Excelente,3,2.4
+1995,Médio,2,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+1996,Alto,3,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.6
+1997,Alto,3,Baixo,1,Muito Alto,4,Médio,2,Bom,3,Excelente,3,2.6
+1998,Baixo,1,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+1999,Muito Alto,4,Muito Alto,4,Baixo,1,Alto,3,Bom,3,Excepcional,4,3.0
+2000,Médio,2,Alto,3,Baixo,1,Alto,3,Ruim,1,Excelente,3,2.0
+2003,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+2007,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.6
+2008,Alto,3,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.6
+2009,Muito Alto,4,Médio,2,Baixo,1,Alto,3,Bom,3,Excelente,3,2.6
+2010,Médio,2,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+2012,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Regular,2,Excelente,3,2.6
+2013,Médio,2,Médio,2,Médio,2,Médio,2,Bom,3,Excelente,3,2.2
+2014,Muito Alto,4,Baixo,1,Baixo,1,Alto,3,Bom,3,Excelente,3,2.4
+2015,Alto,3,Médio,2,Baixo,1,Baixo,1,Bom,3,Excelente,3,2.0
+2016,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+2017,Muito Alto,4,Alto,3,Baixo,1,Muito Alto,4,Bom,3,Excepcional,4,3.0
+2018,Alto,3,Baixo,1,Médio,2,Alto,3,Regular,2,Excepcional,4,2.2
+2019,Muito Alto,4,Baixo,1,Médio,2,Alto,3,Regular,2,Excelente,3,2.4
+2020,Muito Alto,4,Médio,2,Alto,3,Alto,3,Bom,3,Excelente,3,3.0
+2021,Baixo,1,Alto,3,Muito Alto,4,Alto,3,Bom,3,Excelente,3,2.8
+2022,Muito Alto,4,Muito Alto,4,Alto,3,Alto,3,Regular,2,Excelente,3,3.2
+2023,Baixo,1,Muito Alto,4,Baixo,1,Alto,3,Regular,2,Excelente,3,2.2
+2024,Muito Alto,4,Baixo,1,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+2025,Médio,2,Muito Alto,4,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+2026,Alto,3,Alto,3,Baixo,1,Alto,3,Regular,2,Excepcional,4,2.4
+2027,Muito Alto,4,Baixo,1,Médio,2,Alto,3,Ótimo,4,Excelente,3,2.8
+2031,Alto,3,Baixo,1,Baixo,1,Alto,3,Regular,2,Excelente,3,2.0
+2032,Alto,3,Muito Alto,4,Muito Alto,4,Alto,3,Ruim,1,Excelente,3,3.0
+2034,Médio,2,Baixo,1,Alto,3,Médio,2,Bom,3,Excepcional,4,2.2
+2035,Alto,3,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excepcional,4,3.2
+2036,Muito Alto,4,Muito Alto,4,Baixo,1,Baixo,1,Regular,2,Excepcional,4,2.4
+2037,Médio,2,Alto,3,Alto,3,Médio,2,Bom,3,Excelente,3,2.6
+2038,Baixo,1,Muito Alto,4,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+2040,Muito Alto,4,Alto,3,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+2041,Muito Alto,4,Baixo,1,Alto,3,Alto,3,Bom,3,Excelente,3,2.8
+2044,Alto,3,Médio,2,Muito Alto,4,Alto,3,Bom,3,Excelente,3,3.0
+2045,Muito Alto,4,Médio,2,Baixo,1,Médio,2,Regular,2,Excelente,3,2.2
+2046,Alto,3,Muito Alto,4,Alto,3,Alto,3,Bom,3,Excelente,3,3.2
+2048,Alto,3,Alto,3,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.0
+2049,Alto,3,Alto,3,Muito Alto,4,Alto,3,Ótimo,4,Excelente,3,3.4
+2051,Alto,3,Alto,3,Médio,2,Alto,3,Bom,3,Excelente,3,2.8
+2052,Muito Alto,4,Alto,3,Muito Alto,4,Baixo,1,Bom,3,Excelente,3,3.0
+2053,Médio,2,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.4
+2054,Baixo,1,Muito Alto,4,Médio,2,Médio,2,Ruim,1,Excelente,3,2.0
+2055,Baixo,1,Muito Alto,4,Médio,2,Médio,2,Bom,3,Excelente,3,2.4
+2056,Muito Alto,4,Médio,2,Baixo,1,Médio,2,Regular,2,Excelente,3,2.2
+2057,Baixo,1,Médio,2,Médio,2,Alto,3,Bom,3,Excelente,3,2.2
+2060,Alto,3,Muito Alto,4,Muito Alto,4,Médio,2,Bom,3,Excelente,3,3.2
+2061,Muito Alto,4,Alto,3,Alto,3,Muito Alto,4,Bom,3,Excelente,3,3.4
+2062,Baixo,1,Muito Alto,4,Baixo,1,Médio,2,Bom,3,Excelente,3,2.2
+2064,Médio,2,Médio,2,Médio,2,Muito Alto,4,Bom,3,Excepcional,4,2.6
+2065,Médio,2,Muito Alto,4,Muito Alto,4,Médio,2,Regular,2,Excelente,3,2.8
+2068,Alto,3,Médio,2,Baixo,1,Muito Alto,4,Ótimo,4,Excelente,3,2.8
