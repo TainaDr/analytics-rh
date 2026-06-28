@@ -10,8 +10,8 @@ __pycache__/
 # Data & Outputs
 # Se desejar subir os dados, comente as linhas abaixo. 
 # Mas geralmente não subimos CSVs gigantes ou logs de manifesto.
-# output_pbi/_manifesto_carga.csv
-# output_pbi/_resumo_carga.csv
+# output/_manifesto_carga.csv
+# output/_resumo_carga.csv
 
 # Virtual environments
 venv/

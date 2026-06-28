@@ -16,7 +16,7 @@ archive.zip (CSV bruto)
 │  1. ETL_HR_Attrition  │   limpeza, tradução, métricas derivadas
 │       .ipynb          │   e modelagem em estrela
 └───────────┬───────────┘
-            │  output_pbi/*.csv
+            │  output/*.csv
             ▼
 ┌───────────────────────┐
 │  2. ML_HR_Attrition   │   EDA direcionada, Random Forest + SMOTE,
@@ -39,19 +39,19 @@ archive.zip (CSV bruto)
 | `HR-Employee-Attrition.csv` | Dataset bruto original |
 | `ETL_HR_Attrition.ipynb` | Notebook de limpeza, transformação e modelagem estrela |
 | `ML_HR_Attrition.ipynb` | Notebook de EDA, treino do modelo e geração do score de risco |
-| `output_pbi/fato_funcionarios.csv` | Tabela fato — saída do ETL (39 colunas) |
-| `output_pbi/dim_cargos.csv` | Dimensão de cargos e departamentos |
-| `output_pbi/dim_satisfacao.csv` | Dimensão de índices de satisfação |
-| `output_pbi/fato_funcionarios_ml.csv` | Tabela fato enriquecida com probabilidade de attrition e SHAP |
-| `output_pbi/_manifesto_carga.csv` | Log da última execução do ETL |
-| `output_pbi/plot_*.png` | Gráficos de avaliação e interpretabilidade do modelo |
+| `output/fato_funcionarios.csv` | Tabela fato — saída do ETL (39 colunas) |
+| `output/dim_cargos.csv` | Dimensão de cargos e departamentos |
+| `output/dim_satisfacao.csv` | Dimensão de índices de satisfação |
+| `output/fato_funcionarios_ml.csv` | Tabela fato enriquecida com probabilidade de attrition e SHAP |
+| `output/_manifesto_carga.csv` | Log da última execução do ETL |
+| `output/plot_*.png` | Gráficos de avaliação e interpretabilidade do modelo |
 
 ---
 
 ## Notebook 1 — ETL (`ETL_HR_Attrition.ipynb`)
 
 **Entrada:** `HR-Employee-Attrition.csv`
-**Saída:** `output_pbi/fato_funcionarios.csv`, `dim_cargos.csv`, `dim_satisfacao.csv`
+**Saída:** `output/fato_funcionarios.csv`, `dim_cargos.csv`, `dim_satisfacao.csv`
 
 ### Etapas
 
@@ -80,8 +80,8 @@ archive.zip (CSV bruto)
 
 ## Notebook 2 — ML (`ML_HR_Attrition.ipynb`)
 
-**Entrada:** `output_pbi/fato_funcionarios.csv` + `dim_satisfacao.csv`
-**Saída:** `output_pbi/fato_funcionarios_ml.csv`
+**Entrada:** `output/fato_funcionarios.csv` + `dim_satisfacao.csv`
+**Saída:** `output/fato_funcionarios_ml.csv`
 
 ### Etapas
 
@@ -165,13 +165,13 @@ Prob Média Attrition =
 ```bash
 pip install pandas numpy scikit-learn shap imbalanced-learn matplotlib --break-system-packages
 
-# 1. Rodar o ETL primeiro — gera output_pbi/
+# 1. Rodar o ETL primeiro — gera output/
 jupyter notebook ETL_HR_Attrition.ipynb
 
-# 2. Rodar o ML — consome output_pbi/ e gera fato_funcionarios_ml.csv
+# 2. Rodar o ML — consome output/ e gera fato_funcionarios_ml.csv
 jupyter notebook ML_HR_Attrition.ipynb
 
-# 3. Power BI Desktop → Obter Dados → Texto/CSV → importar os arquivos de output_pbi/
+# 3. Power BI Desktop → Obter Dados → Texto/CSV → importar os arquivos de output/
 ```
 
 ---
