@@ -12,298 +12,231 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# PALETA DE CORES
-COR_PERIGO   = "#E24B4A"
-COR_AVISO    = "#EF9F27"
-COR_OK       = "#639922"
-COR_AZUL     = "#378ADD"
-COR_CINZA    = "#8C9BAA"
+# TEMA 3 — GLASS AURORA
+COR_PERIGO   = "#F43F5E"
+COR_AVISO    = "#FBBF24"
+COR_OK       = "#34D399"
+COR_AZUL     = "#60A5FA"
+COR_CINZA    = "#94A3B8"
+
+BG           = "#0e1117"
+BG_CARD      = "rgba(255,255,255,0.04)"
+BG_CARD2     = "rgba(255,255,255,0.06)"
+BORDER       = "rgba(255,255,255,0.08)"
+BORDER_H     = "rgba(255,255,255,0.16)"
+ACCENT       = "#A78BFA"          # violeta
+ACCENT_2     = "#22D3EE"          # ciano
+ACCENT_3     = "#F472B6"          # magenta
+ACCENT_H     = "#C4B5FD"
+TEXT         = "#F8FAFC"
+TEXT_SEC     = "#CBD5E1"
+MUTED        = "#94A3B8"
+
+# Mapeamento de compatibilidade para corrigir NameErrors do código original
+ROXO_TEXT = TEXT
+ROXO_TEXT_SEC = TEXT_SEC
+ROXO_MUTED = MUTED
+ROXO_BORDER = BORDER
+ROXO_ACCENT = ACCENT
+ROXO_ACCENT_H = ACCENT_H
 
 CORES_RISCO = {
-    "Critico": COR_PERIGO,
-    "Alto"   : COR_AVISO,
-    "Medio"  : COR_AZUL,
-    "Baixo"  : COR_OK,
+    "Baixo": COR_OK,
+    "Medio": COR_AZUL,
+    "Alto": COR_AVISO,
+    "Critico": COR_PERIGO
 }
-
-# Cores do tema roxo
-ROXO_BG        = "#0e1117"
-ROXO_BG_CARD   = "#14101E"
-ROXO_BG_CARD2  = "#1A1425"
-ROXO_BORDER    = "#2A1F3D"
-ROXO_BORDER_H  = "#242424"
-ROXO_ACCENT    = "#595959"
-ROXO_ACCENT_H  = "#FFFFFF"
-ROXO_LIGHT     = "#FFFFFF"
-ROXO_TEXT      = "#F5F3FF"
-ROXO_TEXT_SEC  = "#A8A8A8"
-ROXO_MUTED     = "#FDFDFD"
 
 st.markdown(f"""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght=400;500;600;700&family=Inter:wght=300;400;500;600;700&display=swap');
 
-/* 1. TIPOGRAFIA DO APP (IGNORA ÍCONES NATIVOS) */
-.stApp, h1, h2, h3, p, div, span, label, input, button, select {{
+.stApp, p, div, span, label, input, button, select {{
     font-family: 'Inter', sans-serif;
 }}
-
-=[data-testid="stIcon"], 
-.notranslate, 
-font,
-i,
-[style*="Material Symbols"],
-[style*="Material Icons"] {{
-    font-family: 'Material Symbols Outlined', 'Material Icons' !important;
+h1, h2, h3, .section-title, .metric-card .value {{
+    font-family: 'Space Grotesk', sans-serif;
 }}
 
 .stApp {{
-    background: linear-gradient(135deg, {ROXO_BG} 0%, #0e1117 50%, {ROXO_BG} 100%);
+    background:
+        radial-gradient(800px 500px at 0% 0%, rgba(167,139,250,0.18), transparent 60%),
+        radial-gradient(900px 600px at 100% 0%, rgba(34,211,238,0.14), transparent 60%),
+        radial-gradient(700px 500px at 50% 100%, rgba(244,114,182,0.12), transparent 60%),
+        {BG};
+    background-attachment: fixed;
 }}
 
-[data-testid="stSidebar"],
-[data-testid="stSidebar"] > div:first-child,
-.stSidebarNav {{
-    overflow: hidden !important;
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
-    max-height: 100vh !important;
-}}
-
-[data-testid="stSidebarUserContent"] {{
-    padding-top: 0rem !important; 
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-    overflow: hidden !important;
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
-}}
+/* Sidebar — glass */
 [data-testid="stSidebar"] {{
-    background: linear-gradient(180deg, #0e1117 0%, #0e1117 100%);
-    border-right: 1px solid {ROXO_BORDER};
+    background: rgb(14, 17, 23) !important;
+    backdrop-filter: blur(24px) saturate(140%);
+    -webkit-backdrop-filter: blur(24px) saturate(140%);
+    border-right: 1px solid {BORDER};
 }}
-
-[data-testid="stSidebar"] * {{
-    color: {ROXO_TEXT} !important;
-}}
-
-[data-testid="stSidebar"] .element-container,
-[data-testid="stSidebar"] .stSelectbox,
-[data-testid="stSidebar"] .stMultiSelect,
-[data-testid="stSidebar"] .stRadio,
-[data-testid="stSidebar"] div[data-baseweb="select"] {{
-    overflow: hidden !important;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-}}
-
-[data-testid="stSidebar"] .stRadio > div {{
-    background: transparent !important;
-    overflow: hidden !important;
-}}
+[data-testid="stSidebar"] * {{ color: {TEXT} !important; }}
+[data-testid="stSidebarUserContent"] {{ padding: 0.75rem 1rem !important; }}
 
 [data-testid="stSidebar"] .stRadio > div [data-baseweb="radio"] {{
-    background: {ROXO_BG_CARD} !important;
-    border: 1px solid {ROXO_BORDER} !important;
-    border-radius: 10px !important;
-    padding: 3px 3px !important;
-    margin-bottom: 3px !important;
-    transition: all 0.2s ease !important;
-    width: 100% !important;
-    box-sizing: border-box !important;
+    background: {BG_CARD} !important;
+    border: 1px solid {BORDER} !important;
+    border-radius: 12px !important;
+    padding: 6px 10px !important;
+    margin-bottom: 5px !important;
+    backdrop-filter: blur(12px);
+    transition: all .25s ease !important;
 }}
-
 [data-testid="stSidebar"] .stRadio > div [data-baseweb="radio"]:hover {{
-    background: {ROXO_BG_CARD2} !important;
-    border-color: {ROXO_ACCENT} !important;
+    background: {BG_CARD2} !important;
+    border-color: {BORDER_H} !important;
+    box-shadow: 0 0 0 1px {ACCENT}44, 0 4px 20px {ACCENT}22;
 }}
-
 [data-testid="stSidebar"] .stRadio > div [data-baseweb="radio"] label {{
-    color: {ROXO_TEXT_SEC} !important;
-    font-size: 13px !important;
-    font-weight: 500 !important;
-    cursor: pointer !important;
+    color: {TEXT_SEC} !important; font-size: 13px !important; font-weight: 500 !important;
 }}
 
-[data-testid="stSidebar"] .stSelectbox > div > div {{
-    background: {ROXO_BG_CARD} !important;
-    border: 1px solid {ROXO_BORDER} !important;
-    border-radius: 8px !important;
-    color: {ROXO_TEXT} !important;
-}}
-
-[data-testid="stSidebar"] .stSelectbox > div > div:focus {{
-    border-color: {ROXO_ACCENT} !important;
-    box-shadow: 0 0 0 2px rgba(124,58,237,0.2) !important;
-}}
-
+[data-testid="stSidebar"] .stSelectbox > div > div,
 [data-testid="stSidebar"] .stMultiSelect > div > div {{
-    background: {ROXO_BG_CARD} !important;
-    border: 1px solid {ROXO_BORDER} !important;
-    border-radius: 8px !important;
+    background: {BG_CARD} !important;
+    border: 1px solid {BORDER} !important;
+    border-radius: 10px !important;
+    color: {TEXT} !important;
+    backdrop-filter: blur(12px);
 }}
 
-[data-testid="stSidebar"] .stSlider > div > div {{
-    background: {ROXO_BG_CARD} !important;
-}}
-
+/* KPI cards — glassmorphism com borda gradient */
 .metric-card {{
-    background: linear-gradient(145deg, {ROXO_BG_CARD} 0%, {ROXO_BG_CARD2} 100%);
-    border: 1px solid {ROXO_BORDER};
+    background: {BG_CARD};
+    border: 1px solid {BORDER};
     border-radius: 16px;
-    padding: 20px 24px;
-    text-align: center;
+    padding: 20px 22px;
     position: relative;
     overflow: hidden;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(20px) saturate(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(140%);
+    transition: all .35s cubic-bezier(.4,0,.2,1);
 }}
-
 .metric-card::before {{
     content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, {ROXO_ACCENT}, {ROXO_ACCENT_H});
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    position: absolute; inset: 0;
+    border-radius: 16px;
+    padding: 1px;
+    background: linear-gradient(135deg, {ACCENT}66, {ACCENT_2}33, {ACCENT_3}55);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor; mask-composite: exclude;
+    opacity: 0; transition: opacity .35s ease;
 }}
-
 .metric-card:hover {{
     transform: translateY(-3px);
-    border-color: {ROXO_BORDER_H};
-    box-shadow: 0 12px 40px rgba(124, 58, 237, 0.15), 0 0 0 1px rgba(124, 58, 237, 0.1);
+    background: {BG_CARD2};
+    box-shadow:
+        0 20px 60px rgba(167,139,250,0.18),
+        0 0 80px rgba(34,211,238,0.08);
 }}
-
-.metric-card:hover::before {{
-    opacity: 1;
-}}
-
+.metric-card:hover::before {{ opacity: 1; }}
 .metric-card .label {{
-    font-size: 11px;
-    color: {ROXO_MUTED};
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    margin-bottom: 8px;
-    font-weight: 600;
+    font-size: 11px; color: {MUTED};
+    text-transform: uppercase; letter-spacing: 0.1em;
+    margin-bottom: 10px; font-weight: 600;
 }}
-
 .metric-card .value {{
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+    font-size: 32px; font-weight: 600; line-height: 1;
+    letter-spacing: -0.025em;
+    background: linear-gradient(135deg, {TEXT} 0%, {ACCENT_H} 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-variant-numeric: tabular-nums;
 }}
-
 .metric-card .sub {{
-    font-size: 11px;
-    color: {ROXO_MUTED};
-    margin-top: 6px;
-    font-weight: 400;
+    font-size: 11px; color: {MUTED}; margin-top: 8px; font-weight: 400;
 }}
 
+/* Section title — gradient text */
 .section-title {{
-    font-size: 12px;
-    font-weight: 600;
-    color: {ROXO_ACCENT_H};
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin: 28px 0 12px;
-    padding-left: 12px;
-    border-left: 3px solid {ROXO_ACCENT};
+    font-size: 13px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.12em;
+    margin: 30px 0 12px;
+    padding-left: 14px;
+    border-left: 3px solid transparent;
+    border-image: linear-gradient(180deg, {ACCENT}, {ACCENT_2}) 1;
+    background: linear-gradient(90deg, {ACCENT_H}, {ACCENT_2});
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
 }}
 
 h1 {{
-    color: {ROXO_TEXT} !important;
-    font-weight: 700 !important;
-    letter-spacing: -0.02em !important;
+    color: {TEXT} !important; font-weight: 700 !important;
+    letter-spacing: -0.03em !important;
+    background: linear-gradient(135deg, {TEXT} 0%, {ACCENT_H} 50%, {ACCENT_2} 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
 }}
+h2, h3 {{ color: {TEXT_SEC} !important; font-weight: 600 !important; }}
 
-h2, h3 {{
-    color: {ROXO_TEXT_SEC} !important;
-    font-weight: 600 !important;
-}}
-
-div[data-testid="stHorizontalBlock"] {{
-    gap: 14px !important;
-}}
+div[data-testid="stHorizontalBlock"] {{ gap: 14px !important; }}
 
 [data-testid="stDataFrame"] {{
-    border: 1px solid {ROXO_BORDER} !important;
-    border-radius: 12px !important;
+    border: 1px solid {BORDER} !important;
+    border-radius: 14px !important;
     overflow: hidden !important;
+    background: {BG_CARD} !important;
+    backdrop-filter: blur(20px);
 }}
 
-/* 8. SCROLLBAR CUSTOMIZADA DO CONTEÚDO PRINCIPAL */
-::-webkit-scrollbar {{
-    width: 8px;
-    height: 8px;
-}}
-::-webkit-scrollbar-track {{
-    background: {ROXO_BG};
-}}
+::-webkit-scrollbar {{ width: 8px; height: 8px; }}
+::-webkit-scrollbar-track {{ background: transparent; }}
 ::-webkit-scrollbar-thumb {{
-    background: {ROXO_BORDER_H};
+    background: linear-gradient(180deg, {ACCENT}, {ACCENT_2});
     border-radius: 4px;
-}}
-::-webkit-scrollbar-thumb:hover {{
-    background: {ROXO_ACCENT};
-}}
-
-.stCaption {{
-    color: {ROXO_MUTED} !important;
 }}
 
 .stDownloadButton > button {{
-    background: linear-gradient(135deg, {ROXO_ACCENT}, {ROXO_ACCENT_H}) !important;
+    background: linear-gradient(135deg, {ACCENT} 0%, {ACCENT_3} 100%) !important;
     color: white !important;
     border: none !important;
-    border-radius: 10px !important;
+    border-radius: 12px !important;
     font-weight: 600 !important;
-    padding: 10px 24px !important;
-    transition: all 0.3s ease !important;
+    padding: 11px 26px !important;
+    transition: all .3s ease !important;
+    box-shadow: 0 4px 20px {ACCENT}44;
 }}
-
 .stDownloadButton > button:hover {{
-    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.4) !important;
-    transform: translateY(-1px) !important;
-}}
-
-.stSlider [data-baseweb="slider"] [data-testid="stTickBar"] {{
-    background: {ROXO_BORDER} !important;
-}}
-.stSlider [data-baseweb="slider"] div[role="slider"] {{
-    background-color: {ROXO_ACCENT} !important;
-    border-color: {ROXO_ACCENT} !important;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 40px {ACCENT}66, 0 0 30px {ACCENT_2}33 !important;
 }}
 
 div[data-baseweb="select"] > div {{
-    background-color: {ROXO_BG_CARD} !important;
-    border-color: {ROXO_BORDER} !important;
-    color: {ROXO_TEXT} !important;
+    background-color: {BG_CARD} !important;
+    border-color: {BORDER} !important;
+    color: {TEXT} !important;
+    border-radius: 10px !important;
+    backdrop-filter: blur(12px);
 }}
 div[data-baseweb="popover"] > div > div {{
-    background-color: {ROXO_BG_CARD} !important;
-    border: 1px solid {ROXO_BORDER} !important;
+    background-color: rgba(20,16,30,0.95) !important;
+    border: 1px solid {BORDER} !important;
+    backdrop-filter: blur(20px);
 }}
-div[data-baseweb="popover"] div[role="option"] {{
-    color: {ROXO_TEXT} !important;
-}}
+div[data-baseweb="popover"] div[role="option"] {{ color: {TEXT} !important; }}
 div[data-baseweb="popover"] div[role="option"]:hover {{
-    background-color: {ROXO_BG_CARD2} !important;
+    background: linear-gradient(90deg, {ACCENT}22, transparent) !important;
 }}
 
-[aria-checked="true"] > div:first-child > div {{
-    background-color: {ROXO_ACCENT} !important;
+.stSlider [data-baseweb="slider"] div[role="slider"] {{
+    background: linear-gradient(135deg, {ACCENT}, {ACCENT_2}) !important;
+    border: none !important;
+    box-shadow: 0 0 16px {ACCENT}66 !important;
 }}
+[aria-checked="true"] > div:first-child > div {{ background-color: {ACCENT} !important; }}
+
+.stCaption {{ color: {MUTED} !important; }}
 </style>
 """, unsafe_allow_html=True)
+
 
 # GERACAO DE DADOS MOCK
 @st.cache_data
 def gerar_dados_mock():
-    """Gera dados sinteticos no mesmo schema do IBM HR Employee Attrition."""
     np.random.seed(42)
     n = 1470
 
@@ -335,13 +268,11 @@ def gerar_dados_mock():
         "distancia_casa": np.random.exponential(8, n).clip(1, 30).astype(int),
     })
 
-    # Flags derivadas
     mediana_renda = df["renda_mensal_brl"].median()
     df["flag_renda_abaixo_mediana"] = (df["renda_mensal_brl"] < mediana_renda).astype(int)
     df["flag_sem_promocao_3a"] = (df["anos_desde_ultima_promocao"] >= 3).astype(int)
     df["flag_distancia_alta"] = (df["distancia_casa"] > 15).astype(int)
 
-    # Satisfacao
     df["satisfacao_trabalho"] = np.random.choice(satisfacao, n)
     df["satisfacao_trabalho_cod"] = df["satisfacao_trabalho"].map({"Baixo":1, "Medio":2, "Alto":3, "Muito Alto":4})
     df["satisfacao_ambiente"] = np.random.choice(satisfacao, n)
@@ -355,16 +286,11 @@ def gerar_dados_mock():
     df["avaliacao_desempenho"] = np.random.choice([3, 4], n, p=[0.15, 0.85])
     df["flag_satisfacao_baixa"] = (df["satisfacao_trabalho_cod"] <= 2).astype(int)
 
-    # Score bem-estar
-    df["score_bemestar"] = df[["satisfacao_trabalho_cod", "satisfacao_ambiente_cod",
-                                "equilibrio_vida_trabalho_cod"]].mean(axis=1)
+    df["score_bemestar"] = df[["satisfacao_trabalho_cod", "satisfacao_ambiente_cod", "equilibrio_vida_trabalho_cod"]].mean(axis=1)
 
-    # Faixas
-    df["faixa_etaria"] = pd.cut(df["idade"], bins=[17, 25, 35, 45, 55, 99],
-                                  labels=["18-25", "26-35", "36-45", "46-55", "55+"]).astype(str)
+    df["faixa_etaria"] = pd.cut(df["idade"], bins=[17, 25, 35, 45, 55, 99], labels=["18-25", "26-35", "36-45", "46-55", "55+"]).astype(str)
     df["faixa_renda"] = pd.qcut(df["renda_mensal_brl"], 4, labels=["Baixa", "Média-Baixa", "Média-Alta", "Alta"]).astype(str)
 
-    # Modelo de attrition
     prob = (
         0.05
         + 0.12 * df["horas_extras"]
@@ -379,45 +305,28 @@ def gerar_dados_mock():
     ).clip(0.05, 0.85)
     df["attrition"] = (np.random.random(n) < prob).astype(int)
 
-    # Probabilidade e risco
     df["prob_attrition"] = prob + np.random.normal(0, 0.04, n)
     df["prob_attrition"] = df["prob_attrition"].clip(0.02, 0.98)
 
     bins_risco = [0, 0.20, 0.40, 0.60, 1.0]
     labels_risco = ["Baixo", "Medio", "Alto", "Critico"]
-    df["nivel_risco_ml"] = pd.Categorical(
-        pd.cut(df["prob_attrition"], bins=bins_risco, labels=labels_risco),
-        categories=labels_risco, ordered=True
-    )
+    df["nivel_risco_ml"] = pd.Categorical(pd.cut(df["prob_attrition"], bins=bins_risco, labels=labels_risco), categories=labels_risco, ordered=True)
 
-    # Custo reposição
     multiplicador = {"Junior": 0.5, "Pleno": 0.8, "Senior": 1.2, "Especialista": 1.5, "Diretor": 2.5}
     df["custo_reposicao_est_brl"] = (df["renda_mensal_brl"] * df["nivel_cargo"].map(multiplicador) * 12).astype(int)
 
-    # SHAP features e ações
-    features = ["horas_extras", "satisfacao_baixa", "sem_promocao", "renda_baixa",
-                "distancia_alta", "viagem_freq", "solteiro", "empresa_curto"]
+    features = ["horas_extras", "satisfacao_baixa", "sem_promocao", "renda_baixa", "distancia_alta", "viagem_freq", "solteiro", "empresa_curto"]
     df["shap_top1_feat"] = np.random.choice(features, n)
     df["shap_top2_feat"] = np.random.choice(features, n)
     df["shap_top3_feat"] = np.random.choice(features, n)
 
-    acoes = ["Conversar 1:1", "Revisar Compensação", "Reduzir horas extras",
-             "Plano de desenvolvimento", "Promover", "Mudança de time", "Aumento salarial"]
+    acoes = ["Conversar 1:1", "Revisar Compensação", "Reduzir horas extras", "Plano de desenvolvimento", "Promover", "Mudança de time", "Aumento salarial"]
     df["acao_recomendada"] = np.random.choice(acoes, n)
 
-    # Dim satisfação
-    sat = df[["id_funcionario", "satisfacao_trabalho", "satisfacao_trabalho_cod",
-              "satisfacao_ambiente", "satisfacao_ambiente_cod",
-              "satisfacao_relacionamento", "satisfacao_relacionamento_cod",
-              "envolvimento_trabalho", "envolvimento_trabalho_cod",
-              "equilibrio_vida_trabalho", "equilibrio_vida_trabalho_cod",
-              "avaliacao_desempenho"]].copy()
-
-    # Dim cargos
+    sat = df[["id_funcionario", "satisfacao_trabalho", "satisfacao_trabalho_cod", "satisfacao_ambiente", "satisfacao_ambiente_cod", "satisfacao_relacionamento", "satisfacao_relacionamento_cod", "envolvimento_trabalho", "envolvimento_trabalho_cod", "equilibrio_vida_trabalho", "equilibrio_vida_trabalho_cod", "avaliacao_desempenho"]].copy()
     dim = df[["cargo", "departamento", "nivel_cargo"]].drop_duplicates().reset_index(drop=True)
 
     return df, sat, dim
-
 
 df_full, sat_full, dim_cargos = gerar_dados_mock()
 
@@ -426,22 +335,21 @@ df_full, sat_full, dim_cargos = gerar_dados_mock()
 with st.sidebar:
     st.markdown(f"""
     <div style="text-align:center; padding: 10px 0 20px;">
-        <div style="font-size: 20px; font-weight: 800; color: {ROXO_TEXT};">People Analytics</div>
+        <div style="font-size: 20px; font-weight: 700; color: {ROXO_TEXT}; font-family: 'Space Grotesk', sans-serif;">People Analytics</div>
         <div style="font-size: 11px; color: {ROXO_MUTED}; letter-spacing: 0.1em; text-transform: uppercase; margin-top: 4px;">HR Attrition Dashboard</div>
-        <div style="width: 40px; height: 3px; background: linear-gradient(90deg, {ROXO_ACCENT}, {ROXO_ACCENT_H}); margin: 14px auto; border-radius: 2px;"></div>
+        <div style="width: 40px; height: 2px; background: linear-gradient(90deg, {ACCENT}, {ACCENT_2}); margin: 14px auto; border-radius: 2px;"></div>
     </div>
     """, unsafe_allow_html=True)
 
     pagina = st.radio(
         "Navegação",
-        ["Visão Geral", "Demografia & Carreira", "Satisfação & Engajamento",
-         "Financeiro & Compensação", "Painel de Risco"],
+        ["Visão Geral", "Demografia & Carreira", "Satisfação & Engajamento", "Financeiro & Compensação", "Painel de Risco"],
         label_visibility="collapsed",
     )
 
     st.markdown(f"""
     <div style="border-top: 1px solid {ROXO_BORDER}; margin: 16px 0 12px;"></div>
-    <div style="font-size: 11px; color: {ROXO_ACCENT_H}; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; margin-bottom: 12px;">⚙ Filtros Globais</div>
+    <div style="font-size: 11px; color: {ACCENT_H}; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; margin-bottom: 12px;">⚙ Filtros Globais</div>
     """, unsafe_allow_html=True)
 
     depts = ["Todos"] + sorted(df_full["departamento"].dropna().unique().tolist())
@@ -452,10 +360,7 @@ with st.sidebar:
         cargos_disp = df_full[df_full["departamento"] == filtro_dept]["cargo"].dropna().unique().tolist()
     filtro_cargo = st.multiselect("Cargo", sorted(cargos_disp), default=[])
 
-    filtro_genero = st.multiselect(
-        "Gênero", df_full["genero"].dropna().unique().tolist(), default=[]
-    )
-
+    filtro_genero = st.multiselect("Gênero", df_full["genero"].dropna().unique().tolist(), default=[])
     filtro_attrition = st.selectbox("Status", ["Todos", "Saiu", "Ficou"])
 
 
@@ -483,47 +388,42 @@ def kpi(label, valor, sub="", cor=ROXO_TEXT):
     st.markdown(f"""
     <div class="metric-card">
         <div class="label">{label}</div>
-        <div class="value" style="color:{cor}">{valor}</div>
+        <div class="value">{valor}</div>
         <div class="sub">{sub}</div>
     </div>""", unsafe_allow_html=True)
-
 
 def secao(txt):
     st.markdown(f'<p class="section-title">{txt}</p>', unsafe_allow_html=True)
 
-
 def layout_plotly(fig, h=340, leg_y=1.12):
-    """Aplica tema escuro roxo nos graficos."""
     fig.update_layout(
         height=h,
         margin=dict(l=0, r=0, t=10, b=0),
         plot_bgcolor="rgba(0,0,0,0)",
         paper_bgcolor="rgba(0,0,0,0)",
-        font=dict(color=ROXO_TEXT, family="Inter, sans-serif"),
+        font=dict(color=TEXT, family="Inter, sans-serif"),
         legend=dict(
             orientation="h", yanchor="bottom", y=leg_y, xanchor="center", x=0.5,
-            bgcolor="rgba(10,6,18,0.8)",
-            bordercolor=ROXO_BORDER,
+            bgcolor="rgba(10,8,20,0.8)",
+            bordercolor=BORDER,
             borderwidth=1,
-            font=dict(size=11, color=ROXO_TEXT_SEC),
+            font=dict(size=11, color=TEXT_SEC),
         ),
     )
     fig.update_xaxes(
-        gridcolor="rgba(42,31,61,0.5)",
-        zerolinecolor=ROXO_BORDER,
-        tickfont=dict(size=10, color=ROXO_MUTED),
-        title_font=dict(size=11, color=ROXO_TEXT_SEC),
+        gridcolor="rgba(167,139,250,0.08)",
+        zerolinecolor=BORDER,
+        tickfont=dict(size=10, color=MUTED),
+        title_font=dict(size=11, color=TEXT_SEC),
     )
     fig.update_yaxes(
-        gridcolor="rgba(42,31,61,0.5)",
-        zerolinecolor=ROXO_BORDER,
-        tickfont=dict(size=10, color=ROXO_MUTED),
-        title_font=dict(size=11, color=ROXO_TEXT_SEC),
+        gridcolor="rgba(167,139,250,0.08)",
+        zerolinecolor=BORDER,
+        tickfont=dict(size=10, color=MUTED),
+        title_font=dict(size=11, color=TEXT_SEC),
     )
     return fig
 
-
-# Labels visíveis para exibição
 LABEL_RISCO = {
     "Critico": "Crítico",
     "Alto"   : "Alto",
@@ -537,10 +437,9 @@ if pagina == "Visão Geral":
     st.title("Visão Geral")
     st.markdown(f"<p style='color:{ROXO_MUTED}; font-size:13px; margin-top:-12px; margin-bottom:24px;'>Panorama completo de headcount, attrition, custos de turnover e risco preditivo.</p>", unsafe_allow_html=True)
 
-    # KPIs
     c1, c2, c3, c4, c5 = st.columns(5)
     with c1:
-        kpi("Headcount", f"{n_total:,}", "Funcionários filtrados", ROXO_ACCENT_H)
+        kpi("Headcount", f"{n_total:,}", "Funcionários filtrados", ACCENT_H)
     with c2:
         cor_att = COR_PERIGO if taxa_att > .15 else COR_AVISO if taxa_att > .10 else COR_OK
         kpi("Attrition", f"{taxa_att:.1%}", f"{n_saiu} saídas", cor_att)
@@ -556,7 +455,6 @@ if pagina == "Visão Geral":
         kpi("Score de Bem-Estar", f"{bw:.2f}", "Escala 1-4", cor_bw)
 
     st.markdown("<br>", unsafe_allow_html=True)
-
     col_a, col_b = st.columns([3, 2])
 
     with col_a:
@@ -578,9 +476,9 @@ if pagina == "Visão Geral":
         )
         fig.update_traces(
             textposition="outside",
-            marker_line_color=ROXO_BORDER,
+            marker_line_color=BORDER,
             marker_line_width=0.5,
-            textfont=dict(color=ROXO_TEXT, size=10),
+            textfont=dict(color=TEXT, size=10),
         )
         fig = layout_plotly(fig, h=340)
         st.plotly_chart(fig, config={'responsive': True}, use_container_width=True)
@@ -631,8 +529,8 @@ if pagina == "Visão Geral":
         )
         fig3.update_traces(
             textposition="outside",
-            textfont=dict(color=ROXO_TEXT, size=10),
-            marker_line_color=ROXO_BORDER, marker_line_width=0.5,
+            textfont=dict(color=TEXT, size=10),
+            marker_line_color=BORDER, marker_line_width=0.5,
         )
         fig3 = layout_plotly(fig3, h=300)
         st.plotly_chart(fig3, config={'responsive': True}, use_container_width=True)
@@ -658,13 +556,12 @@ if pagina == "Visão Geral":
         )
         fig4.update_traces(
             textinfo="label+percent",
-            textfont=dict(size=11, color=ROXO_TEXT),
-            insidetextfont=dict(color="white"),
+            textfont=dict(size=11, color=TEXT),
         )
         fig4 = layout_plotly(fig4, h=300, leg_y=-0.05)
         fig4.add_annotation(
-            text=f"<b>{n_total}</b><br><span style='font-size:10px; color:{ROXO_MUTED}'>total</span>",
-            showarrow=False, font=dict(size=16, color=ROXO_TEXT),
+            text=f"<b>{n_total}</b><br><span style='font-size:10px; color:{MUTED}'>total</span>",
+            showarrow=False, font=dict(size=16, color=TEXT, family="Space Grotesk"),
             y=0.5, x=0.5,
         )
         st.plotly_chart(fig4, config={'responsive': True}, use_container_width=True)
@@ -676,7 +573,7 @@ elif pagina == "Demografia & Carreira":
     st.markdown(f"<p style='color:{ROXO_MUTED}; font-size:13px; margin-top:-12px; margin-bottom:24px;'>Perfil etário, trajetórias de carreira, estado civil e correlações demográficas com attrition.</p>", unsafe_allow_html=True)
 
     c1, c2, c3, c4 = st.columns(4)
-    with c1: kpi("Idade Média", f"{df['idade'].mean():.1f}", "anos", ROXO_ACCENT_H)
+    with c1: kpi("Idade Média", f"{df['idade'].mean():.1f}", "anos", ACCENT)
     with c2: kpi("Tempo na Empresa", f"{df['anos_empresa'].mean():.1f}", "anos médio", COR_AZUL)
     with c3: kpi("Sem Promoção", f"{df['anos_desde_ultima_promocao'].mean():.1f}", "anos médio", COR_AVISO)
     with c4:
@@ -685,7 +582,6 @@ elif pagina == "Demografia & Carreira":
         kpi("Com Horas Extras", f"{pct_ot:.1%}", "do headcount", cor_ot)
 
     st.markdown("<br>", unsafe_allow_html=True)
-
     col_a, col_b = st.columns(2)
 
     with col_a:
@@ -698,7 +594,7 @@ elif pagina == "Demografia & Carreira":
             labels={"idade": "Idade", "color": "Status", "count": "Funcionários"},
         )
         fig = layout_plotly(fig, h=300)
-        fig.update_traces(marker_line_color=ROXO_BORDER, marker_line_width=0.5)
+        fig.update_traces(marker_line_color=BORDER, marker_line_width=0.5)
         st.plotly_chart(fig, config={'responsive': True}, use_container_width=True)
 
     with col_b:
@@ -711,13 +607,13 @@ elif pagina == "Demografia & Carreira":
         fig2 = px.bar(
             cross, x="estado_civil", y="taxa", color="genero", barmode="group",
             text=cross["taxa"].map("{:.1%}".format),
-            color_discrete_map={"Masculino": COR_AZUL, "Feminino": "#B47FD4"},
+            color_discrete_map={"Masculino": COR_AZUL, "Feminino": ACCENT_3}, 
             labels={"taxa": "Taxa attrition", "estado_civil": "", "genero": "Gênero"},
         )
         fig2.update_traces(
             textposition="outside",
-            textfont=dict(color=ROXO_TEXT, size=10),
-            marker_line_color=ROXO_BORDER, marker_line_width=0.5,
+            textfont=dict(color=TEXT, size=10),
+            marker_line_color=BORDER, marker_line_width=0.5,
         )
         fig2 = layout_plotly(fig2, h=300)
         st.plotly_chart(fig2, config={'responsive': True}, use_container_width=True)
@@ -745,7 +641,7 @@ elif pagina == "Demografia & Carreira":
         )
         fig4 = px.imshow(
             heat_data.round(1),
-            color_continuous_scale=[[0, "#1a1035"], [0.5, COR_AVISO], [1, COR_PERIGO]],
+            color_continuous_scale=[[0, "#120D26"], [0.5, COR_AVISO], [1, COR_PERIGO]],
             text_auto=".1f",
             labels={"color": "Attrition %"},
             aspect="auto",
@@ -764,7 +660,7 @@ elif pagina == "Demografia & Carreira":
     fig5 = make_subplots(specs=[[{"secondary_y": True}]])
     fig5.add_trace(go.Bar(
         x=fat_etaria["faixa_etaria"], y=fat_etaria["total"],
-        name="Headcount", marker_color=COR_AZUL, opacity=0.6,
+        name="Headcount", marker_color=COR_AZUL, opacity=0.4,
         text=fat_etaria["total"], textposition="inside",
         textfont=dict(color="white", size=10),
     ))
@@ -772,29 +668,24 @@ elif pagina == "Demografia & Carreira":
         x=fat_etaria["faixa_etaria"], y=fat_etaria["taxa"],
         name="Taxa attrition", mode="lines+markers",
         line=dict(color=COR_PERIGO, width=2.5),
-        marker=dict(size=8, color=COR_PERIGO, line=dict(color=ROXO_TEXT, width=1)),
+        marker=dict(size=8, color=COR_PERIGO, line=dict(color=TEXT, width=1)),
     ), secondary_y=True)
     fig5 = layout_plotly(fig5, h=260)
     fig5.update_yaxes(tickformat=".0%", secondary_y=True, showgrid=False)
     st.plotly_chart(fig5, config={'responsive': True}, use_container_width=True)
-
-
+    
 # PAGINA 3 — SATISFAÇÃO & ENGAJAMENTO
 elif pagina == "Satisfação & Engajamento":
     st.title("Satisfação & Engajamento")
     st.markdown(f"<p style='color:{ROXO_MUTED}; font-size:13px; margin-top:-12px; margin-bottom:24px;'>Dimensões de satisfação, work-life balance, envolvimento e sua relação com attrition.</p>", unsafe_allow_html=True)
 
-    sat_cols = ["satisfacao_trabalho_cod", "satisfacao_ambiente_cod",
-                "satisfacao_relacionamento_cod", "envolvimento_trabalho_cod",
-                "equilibrio_vida_trabalho_cod"]
-    sat_labels = ["Sat. Trabalho", "Sat. Ambiente", "Sat. Relacionamento",
-                  "Envolvimento", "Work-Life Balance"]
+    sat_cols = ["satisfacao_trabalho_cod", "satisfacao_ambiente_cod", "satisfacao_relacionamento_cod", "envolvimento_trabalho_cod", "equilibrio_vida_trabalho_cod"]
+    sat_labels = ["Sat. Trabalho", "Sat. Ambiente", "Sat. Relacionamento", "Envolvimento", "Work-Life Balance"]
 
     c1, c2, c3, c4 = st.columns(4)
     bw_mean = df['score_bemestar'].mean()
     with c1:
-        kpi("Pontuação de Bem-Estar", f"{bw_mean:.2f}", "média escala 1-4",
-            COR_OK if bw_mean >= 2.5 else COR_AVISO)
+        kpi("Pontuação de Bem-Estar", f"{bw_mean:.2f}", "média escala 1-4", COR_OK if bw_mean >= 2.5 else COR_AVISO)
     with c2:
         kpi("Satisfação no Trabalho", f"{df['satisfacao_trabalho_cod'].mean():.2f}", "média 1-4", COR_AZUL)
     with c3:
@@ -805,7 +696,6 @@ elif pagina == "Satisfação & Engajamento":
         kpi("Satisfação Baixa", f"{pct_low:.1%}", "Pontuação ≤ 2", cor_low)
 
     st.markdown("<br>", unsafe_allow_html=True)
-
     col_a, col_b = st.columns(2)
 
     with col_a:
@@ -814,26 +704,25 @@ elif pagina == "Satisfação & Engajamento":
         medias_saiu = df[df["attrition"] == 1][sat_cols].mean().tolist()
 
         fig = go.Figure()
-        for vals, nome, cor in [(medias_fica, "Ficou", COR_AZUL), (medias_saiu, "Saiu", COR_PERIGO)]:
+        for vals, nome, cor in [(medias_fica, "Ficou", ACCENT_2), (medias_saiu, "Saiu", COR_PERIGO)]:
             fig.add_trace(go.Scatterpolar(
                 r=vals + [vals[0]],
                 theta=sat_labels + [sat_labels[0]],
                 fill="toself", name=nome,
-                line_color=cor, fillcolor=cor, opacity=0.20,
+                line_color=cor, fillcolor=cor, opacity=0.12,
                 line=dict(width=2),
             ))
         fig.update_layout(
             polar=dict(
                 radialaxis=dict(visible=True, range=[1, 4],
-                                gridcolor="rgba(42,31,61,0.6)", tickcolor=ROXO_MUTED,
-                                tickfont=dict(color=ROXO_MUTED, size=9)),
-                angularaxis=dict(gridcolor="rgba(42,31,61,0.4)", tickfont=dict(color=ROXO_TEXT_SEC, size=10)),
-                bgcolor="rgba(20,16,30,0.5)",
+                                gridcolor="rgba(255,255,255,0.08)", tickcolor=MUTED,
+                                tickfont=dict(color=MUTED, size=9)),
+                angularaxis=dict(gridcolor="rgba(255,255,255,0.06)", tickfont=dict(color=TEXT_SEC, size=10)),
+                bgcolor="rgba(0,0,0,0)",
             ),
             height=340, margin=dict(l=30, r=30, t=30, b=30),
-            paper_bgcolor="rgba(0,0,0,0)", font_color=ROXO_TEXT,
-            legend=dict(orientation="h", y=-0.05, x=0.5, xanchor="center",
-                        font=dict(color=ROXO_TEXT_SEC, size=11)),
+            paper_bgcolor="rgba(0,0,0,0)", font_color=TEXT,
+            legend=dict(orientation="h", y=-0.05, x=0.5, xanchor="center", font=dict(color=TEXT_SEC, size=11)),
         )
         st.plotly_chart(fig, config={'responsive': True}, use_container_width=True)
 
@@ -853,8 +742,8 @@ elif pagina == "Satisfação & Engajamento":
             labels={"satisfacao_trabalho": "Satisfação no trabalho", "count": "Funcionários", "status": ""},
         )
         fig2.update_traces(
-            textfont=dict(color=ROXO_TEXT, size=10),
-            marker_line_color=ROXO_BORDER, marker_line_width=0.5,
+            textfont=dict(color=TEXT, size=10),
+            marker_line_color=BORDER, marker_line_width=0.5,
         )
         fig2 = layout_plotly(fig2, h=340)
         st.plotly_chart(fig2, config={'responsive': True}, use_container_width=True)
@@ -870,7 +759,7 @@ elif pagina == "Satisfação & Engajamento":
         heat = heat.reindex(columns=[c for c in ordem_sat if c in heat.columns])
         fig3 = px.imshow(
             heat.round(1), text_auto=".1f",
-            color_continuous_scale=[[0, "#1a1035"], [0.5, COR_AVISO], [1, COR_PERIGO]],
+            color_continuous_scale=[[0, "#120D26"], [0.5, COR_AVISO], [1, COR_PERIGO]],
             labels={"color": "Attrition %"},
             aspect="auto",
         )
@@ -887,7 +776,7 @@ elif pagina == "Satisfação & Engajamento":
         fig4 = make_subplots(specs=[[{"secondary_y": True}]])
         fig4.add_trace(go.Bar(
             x=treino_att["treinamentos_ultimo_ano"], y=treino_att["total"],
-            name="Headcount", marker_color=COR_CINZA, opacity=0.5,
+            name="Headcount", marker_color=COR_CINZA, opacity=0.4,
             text=treino_att["total"], textposition="inside",
             textfont=dict(color="white", size=9),
         ))
@@ -895,7 +784,7 @@ elif pagina == "Satisfação & Engajamento":
             x=treino_att["treinamentos_ultimo_ano"], y=treino_att["taxa"],
             name="Taxa attrition", mode="lines+markers",
             line=dict(color=COR_PERIGO, width=2.5),
-            marker=dict(size=8, color=COR_PERIGO, line=dict(color=ROXO_TEXT, width=1)),
+            marker=dict(size=8, color=COR_PERIGO, line=dict(color=TEXT, width=1)),
         ), secondary_y=True)
         fig4 = layout_plotly(fig4, h=320)
         fig4.update_yaxes(tickformat=".0%", secondary_y=True, showgrid=False)
@@ -925,13 +814,12 @@ elif pagina == "Financeiro & Compensação":
     gap = renda_fica - renda_saiu
 
     c1, c2, c3, c4 = st.columns(4)
-    with c1: kpi("Renda Mediana", f"R${df['renda_mensal_brl'].median():,.0f}", "todos os funcionários", ROXO_ACCENT_H)
+    with c1: kpi("Renda Mediana", f"R${df['renda_mensal_brl'].median():,.0f}", "todos os funcionários", ACCENT)
     with c2: kpi("Renda — Ficou", f"R${renda_fica:,.0f}", "média mensal", COR_OK)
     with c3: kpi("Renda — Saiu", f"R${renda_saiu:,.0f}", "média mensal", COR_PERIGO)
     with c4: kpi("Diferença Salarial", f"R${gap:,.0f}", "ficou − saiu / mês", COR_AVISO)
 
     st.markdown("<br>", unsafe_allow_html=True)
-
     col_a, col_b = st.columns(2)
 
     with col_a:
@@ -965,8 +853,8 @@ elif pagina == "Financeiro & Compensação":
         )
         fig2.update_traces(
             textposition="outside",
-            textfont=dict(color=ROXO_TEXT, size=10),
-            marker_line_color=ROXO_BORDER, marker_line_width=0.5,
+            textfont=dict(color=TEXT, size=10),
+            marker_line_color=BORDER, marker_line_width=0.5,
         )
         fig2 = layout_plotly(fig2, h=320)
         st.plotly_chart(fig2, config={'responsive': True}, use_container_width=True)
@@ -988,8 +876,8 @@ elif pagina == "Financeiro & Compensação":
         )
         fig3.update_traces(
             textposition="outside",
-            textfont=dict(color=ROXO_TEXT, size=10),
-            marker_line_color=ROXO_BORDER, marker_line_width=0.5,
+            textfont=dict(color=TEXT, size=10),
+            marker_line_color=BORDER, marker_line_width=0.5,
         )
         fig3 = layout_plotly(fig3, h=300)
         st.plotly_chart(fig3, config={'responsive': True}, use_container_width=True)
@@ -1010,8 +898,8 @@ elif pagina == "Financeiro & Compensação":
         )
         fig4.update_traces(
             textposition="outside",
-            textfont=dict(color=ROXO_TEXT, size=10),
-            marker_line_color=ROXO_BORDER, marker_line_width=0.5,
+            textfont=dict(color=TEXT, size=10),
+            marker_line_color=BORDER, marker_line_width=0.5,
         )
         fig4 = layout_plotly(fig4, h=300)
         st.plotly_chart(fig4, config={'responsive': True}, use_container_width=True)
@@ -1026,7 +914,7 @@ elif pagina == "Financeiro & Compensação":
         custo_dept, x="departamento", y="custo_reposicao_est_brl",
         color="nivel_cargo", barmode="stack",
         labels={"custo_reposicao_est_brl": "Custo estimado (R$)", "departamento": "", "nivel_cargo": "Nível"},
-        color_discrete_sequence=["#4C7BB8", "#5B8FC7", "#7BA3D1", "#9BB8DB", "#BBCDE5"],
+        color_discrete_sequence=["#A78BFA", "#818CF8", "#60A5FA", "#34D399", "#F472B6"],
     )
     fig5 = layout_plotly(fig5, h=280)
     st.plotly_chart(fig5, config={'responsive': True}, use_container_width=True)
@@ -1035,10 +923,7 @@ elif pagina == "Financeiro & Compensação":
 # PAGINA 5 — PAINEL DE RISCO
 elif pagina == "Painel de Risco":
     st.title("Painel de Risco")
-    st.markdown(f"""
-    <p style='color:{ROXO_MUTED}; font-size:13px; margin-top:-12px; margin-bottom:24px;'>
-    Probabilidade individual de attrition.
-    </p>""", unsafe_allow_html=True)
+    st.markdown(f"<p style='color:{ROXO_MUTED}; font-size:13px; margin-top:-12px; margin-bottom:24px;'>Probabilidade individual de attrition.</p>", unsafe_allow_html=True)
 
     criticos = (df["nivel_risco_ml"] == "Critico").sum()
     altos = (df["nivel_risco_ml"] == "Alto").sum()
@@ -1047,17 +932,12 @@ elif pagina == "Painel de Risco":
 
     c1, c2, c3, c4 = st.columns(4)
     cor_prob = COR_PERIGO if prob_media > .2 else COR_AVISO
-    with c1:
-        kpi("Prob. Média Attrition", f"{prob_media:.1%}", "todos do filtro", cor_prob)
-    with c2:
-        kpi("Críticos", f"{criticos:,}", f"{criticos/n_total:.1%}" if n_total > 0 else "0,0%", COR_PERIGO)
-    with c3:
-        kpi("Alto Risco", f"{altos:,}", f"{altos/n_total:.1%}" if n_total > 0 else "0,0%", COR_AVISO)
-    with c4:
-        kpi("Custo em Risco", f"R${custo_risco/1e6:.1f}M", "Crítico + Alto", COR_AVISO)
+    with c1: kpi("Prob. Média Attrition", f"{prob_media:.1%}", "todos do filtro", cor_prob)
+    with c2: kpi("Críticos", f"{criticos:,}", f"{criticos/n_total:.1%}" if n_total > 0 else "0,0%", COR_PERIGO)
+    with c3: kpi("Alto Risco", f"{altos:,}", f"{altos/n_total:.1%}" if n_total > 0 else "0,0%", COR_AVISO)
+    with c4: kpi("Custo em Risco", f"R${custo_risco/1e6:.1f}M", "Crítico + Alto", COR_AVISO)
 
     st.markdown("<br>", unsafe_allow_html=True)
-
     col_a, col_b = st.columns([2, 1])
 
     with col_a:
@@ -1070,10 +950,10 @@ elif pagina == "Painel de Risco":
             labels={"prob_attrition": "Probabilidade de saída", "count": "Funcionários", "nivel_risco_ml": "Risco"},
             category_orders={"nivel_risco_ml": ["Baixo", "Medio", "Alto", "Critico"]},
         )
-        fig.update_traces(marker_line_color=ROXO_BORDER, marker_line_width=0.3)
+        fig.update_traces(marker_line_color=BORDER, marker_line_width=0.3)
         fig.add_vline(x=0.40, line_dash="dash", line_color="white", line_width=1.5,
                       annotation_text="Threshold (0.40)", annotation_position="top right",
-                      annotation_font_color=ROXO_TEXT)
+                      annotation_font_color=TEXT)
         fig = layout_plotly(fig, h=300)
         st.plotly_chart(fig, config={'responsive': True}, use_container_width=True)
 
@@ -1085,13 +965,13 @@ elif pagina == "Painel de Risco":
             acoes.head(7), x="count", y="acao", orientation="h",
             text="count",
             color="count",
-            color_continuous_scale=[[0, COR_AZUL], [0.5, ROXO_ACCENT], [1, COR_PERIGO]],
+            color_continuous_scale=[[0, COR_AZUL], [0.5, ACCENT], [1, COR_PERIGO]],
             labels={"count": "Funcionários", "acao": ""},
         )
         fig2.update_traces(
             textposition="outside",
-            textfont=dict(color=ROXO_TEXT, size=10),
-            marker_line_color=ROXO_BORDER, marker_line_width=0.5,
+            textfont=dict(color=TEXT, size=10),
+            marker_line_color=BORDER, marker_line_width=0.5,
         )
         fig2 = layout_plotly(fig2, h=300)
         st.plotly_chart(fig2, config={'responsive': True}, use_container_width=True)
@@ -1106,7 +986,7 @@ elif pagina == "Painel de Risco":
         )
         fig3 = px.imshow(
             heat_ml.round(1), text_auto=".1f",
-            color_continuous_scale=[[0, "#1a1035"], [0.5, COR_AVISO], [1, COR_PERIGO]],
+            color_continuous_scale=[[0, "#120D26"], [0.5, COR_AVISO], [1, COR_PERIGO]],
             labels={"color": "Prob. (%)"},
             aspect="auto",
         )
@@ -1130,7 +1010,7 @@ elif pagina == "Painel de Risco":
 
     # Watchlist
     st.markdown(f"""
-    <div style="border-top: 1px solid {ROXO_BORDER}; margin: 32px 0 16px;"></div>
+    <div style="border-top: 1px solid {BORDER}; margin: 32px 0 16px;"></div>
     <div class="section-title">Watchlist — Funcionários em Risco</div>
     """, unsafe_allow_html=True)
 
@@ -1150,10 +1030,7 @@ elif pagina == "Painel de Risco":
     with col_f3:
         prob_min = st.slider("Prob. mínima de saída", 0.0, 1.0, 0.30, 0.05, format="%.0f%%")
 
-    mask = (
-        df["nivel_risco_ml"].isin(filtro_risco) &
-        (df["prob_attrition"] >= prob_min)
-    )
+    mask = (df["nivel_risco_ml"].isin(filtro_risco) & (df["prob_attrition"] >= prob_min))
     if filtro_acao != "Todas":
         mask = mask & (df["acao_recomendada"] == filtro_acao)
 
@@ -1173,10 +1050,8 @@ elif pagina == "Painel de Risco":
     watchlist["renda_mensal_brl"] = watchlist["renda_mensal_brl"].map("R${:,.0f}".format)
 
     watchlist.columns = [
-        "ID", "Cargo", "Departamento", "Nível",
-        "Prob. Saída", "Risco",
-        "Fator 1", "Fator 2", "Fator 3",
-        "Ação Recomendada", "Renda", "Anos s/ Promoção",
+        "ID", "Cargo", "Departamento", "Nível", "Prob. Saída", "Risco",
+        "Fator 1", "Fator 2", "Fator 3", "Ação Recomendada", "Renda", "Anos s/ Promoção",
     ]
 
     st.dataframe(
@@ -1202,7 +1077,7 @@ elif pagina == "Painel de Risco":
     )
 
     st.markdown(f"""
-    <div style="text-align: center; padding: 24px 0; color: {ROXO_MUTED}; font-size: 11px; border-top: 1px solid {ROXO_BORDER}; margin-top: 24px;">
+    <div style="text-align: center; padding: 24px 0; color: {MUTED}; font-size: 11px; border-top: 1px solid {BORDER}; margin-top: 24px;">
         People Analytics Dashboard  ·  IBM HR Employee Attrition Dataset
     </div>
     """, unsafe_allow_html=True)
