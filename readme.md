@@ -114,6 +114,14 @@ archive.zip (CSV bruto)
 
 ---
 
+## Visualização dos dados
+
+- Relatórios e Dashboards em Streamlit
+
+<img width="1848" height="887" alt="image" src="https://github.com/user-attachments/assets/c035dcf5-148a-4a8a-bdac-813f98b3eea9" />
+
+<img width="1862" height="846" alt="image" src="https://github.com/user-attachments/assets/40093891-4f81-4448-bd9f-d8eb9b6384ae" />
+
 ## Como executar
 
 ```bash
@@ -124,8 +132,6 @@ jupyter notebook ETL_HR_Attrition.ipynb
 
 # 2. Rodar o ML — consome output/ e gera fato_funcionarios_ml.csv
 jupyter notebook ML_HR_Attrition.ipynb
-
-# 3. Power BI Desktop → Obter Dados → Texto/CSV → importar os arquivos de output/
 ```
 
 ---
