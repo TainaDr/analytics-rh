@@ -36,9 +36,9 @@ archive.zip (CSV bruto)
 
 | Arquivo | Descrição |
 |---|---|
-| `HR-Employee-Attrition.csv` | Dataset bruto original |
-| `ETL_HR_Attrition.ipynb` | Notebook de limpeza, transformação e modelagem estrela |
-| `ML_HR_Attrition.ipynb` | Notebook de EDA, treino do modelo e geração do score de risco |
+| `data/HR-Employee-Attrition.csv` | Dataset bruto original |
+| `notebooks/ETL_HR_Attrition.ipynb` | Notebook de limpeza, transformação e modelagem estrela |
+| `notebooks/ML_HR_Attrition.ipynb` | Notebook de EDA, treino do modelo e geração do score de risco |
 | `output/fato_funcionarios.csv` | Tabela fato — saída do ETL (39 colunas) |
 | `output/dim_cargos.csv` | Dimensão de cargos e departamentos |
 | `output/dim_satisfacao.csv` | Dimensão de índices de satisfação |
