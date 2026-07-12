@@ -81,7 +81,7 @@ h1, h2, h3, .section-title, .metric-card .value {{
     background: {BG_CARD} !important;
     border: 1px solid {BORDER} !important;
     border-radius: 12px !important;
-    padding: 6px 10px !important;
+    padding: 6px 5px !important;
     margin-bottom: 5px !important;
     backdrop-filter: blur(12px);
     transition: all .25s ease !important;
@@ -336,7 +336,7 @@ with st.sidebar:
     st.markdown(f"""
     <div style="text-align:center; padding: 10px 0 20px;">
         <div style="font-size: 20px; font-weight: 700; color: {ROXO_TEXT}; font-family: 'Space Grotesk', sans-serif;">People Analytics</div>
-        <div style="font-size: 11px; color: {ROXO_MUTED}; letter-spacing: 0.1em; text-transform: uppercase; margin-top: 4px;">HR Attrition Dashboard</div>
+        <div style="font-size: 11px; color: {ROXO_MUTED}; letter-spacing: 0.1em; text-transform: uppercase; margin-top: 2px;">HR Attrition Dashboard</div>
         <div style="width: 40px; height: 2px; background: linear-gradient(90deg, {ACCENT}, {ACCENT_2}); margin: 14px auto; border-radius: 2px;"></div>
     </div>
     """, unsafe_allow_html=True)
@@ -348,8 +348,8 @@ with st.sidebar:
     )
 
     st.markdown(f"""
-    <div style="border-top: 1px solid {ROXO_BORDER}; margin: 16px 0 12px;"></div>
-    <div style="font-size: 11px; color: {ACCENT_H}; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; margin-bottom: 12px;">⚙ Filtros Globais</div>
+    <div style="border-top: 1px solid {ROXO_BORDER}; margin: 8px 0 6px;"></div>
+    <div style="font-size: 11px; color: {ACCENT_H}; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; margin-bottom: 6px;">⚙ Filtros Globais</div>
     """, unsafe_allow_html=True)
 
     depts = ["Todos"] + sorted(df_full["departamento"].dropna().unique().tolist())
@@ -952,8 +952,11 @@ elif pagina == "Painel de Risco":
         )
         fig.update_traces(marker_line_color=BORDER, marker_line_width=0.3)
         fig.add_vline(x=0.40, line_dash="dash", line_color="white", line_width=1.5,
-                      annotation_text="Threshold (0.40)", annotation_position="top right",
-                      annotation_font_color=TEXT)
+                    annotation_text="Threshold (0.40)", annotation_position="top right",
+                    annotation_font_color=TEXT)
+        
+        fig.update_layout(showlegend=False)
+        
         fig = layout_plotly(fig, h=300)
         st.plotly_chart(fig, config={'responsive': True}, use_container_width=True)
 
