@@ -114,52 +114,6 @@ archive.zip (CSV bruto)
 
 ---
 
-## Modelo de dados para Power BI
-
-```
-        dim_cargos ──┐
-                      │ (cargo)
-fato_funcionarios_ml ─┤
-                      │ (id_funcionario)
-       dim_satisfacao ┘
-```
-
-- `fato_funcionarios_ml.csv` substitui `fato_funcionarios.csv` como tabela principal
-- Relacionamentos: `cargo` → `dim_cargos.cargo` (N:1) e `id_funcionario` → `dim_satisfacao.id_funcionario` (1:1)
-
----
-
-## Dashboard sugerido (5 páginas)
-
-| Página | Foco | Principais visuais |
-|---|---|---|
-| **1. Visão geral** | KPIs executivos | Taxa de attrition, custo de turnover, attrition por cargo/departamento |
-| **2. Demografia & carreira** | Perfil dos funcionários | Idade, tempo na empresa, promoções, viagens |
-| **3. Satisfação & engajamento** | Bem-estar | Radar de satisfação, heatmap cargo × satisfação |
-| **4. Financeiro** | Compensação | Renda por nível, gap salarial, stock options |
-| **5. Painel de risco (ML)** | Ação do RH | Ranking por `prob_attrition`, watchlist com SHAP, `acao_recomendada` |
-
-### Medidas DAX principais
-
-```dax
-Taxa Attrition =
-    DIVIDE(
-        COUNTROWS(FILTER(fato_funcionarios_ml, [attrition] = 1)),
-        COUNTROWS(fato_funcionarios_ml)
-    )
-
-Custo em Risco =
-    SUMX(
-        FILTER(fato_funcionarios_ml, [nivel_risco_ml] IN {"Crítico","Alto"}),
-        [custo_reposicao_est]
-    )
-
-Prob Média Attrition =
-    AVERAGE(fato_funcionarios_ml[prob_attrition])
-```
-
----
-
 ## Como executar
 
 ```bash
@@ -178,8 +132,6 @@ jupyter notebook ML_HR_Attrition.ipynb
 
 ## Próximos passos possíveis
 
-- Re-treinar o modelo periodicamente conforme novos dados de attrition chegam
 - Testar outros algoritmos (XGBoost, LightGBM) e comparar ROC-AUC
 - Adicionar análise de sobrevivência (Kaplan-Meier) para estimar *quando* o risco aumenta
 - Simulação what-if: impacto de reduzir horas extras ou ajustar faixas salariais na taxa de attrition prevista
-- Automatizar a atualização (refresh agendado no Power BI + script de re-treino)
