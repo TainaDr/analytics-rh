@@ -55,8 +55,8 @@ archive.zip (CSV bruto)
 
 ### Etapas
 
-1. **Extração** — leitura do CSV e snapshot inicial (tipos, nulos, cardinalidade)
-2. **Validação** — checagens automáticas: colunas obrigatórias, duplicidade de ID, faixas de valores esperadas, categorias inesperadas. Erros críticos interrompem o pipeline.
+1. **Extração**: leitura do CSV e snapshot inicial (tipos, nulos, cardinalidade)
+2. **Validação**: checagens automáticas: colunas obrigatórias, duplicidade de ID, faixas de valores esperadas, categorias inesperadas. Erros críticos interrompem o pipeline.
 3. **Transformação**
    - Remoção de colunas constantes (`EmployeeCount`, `Over18`, `StandardHours`)
    - Renomeação de todas as colunas para português (snake_case)
@@ -78,7 +78,7 @@ archive.zip (CSV bruto)
 
 ---
 
-## Notebook 2 — ML (`ML_HR_Attrition.ipynb`)
+## Notebook 2: ML (`ML_HR_Attrition.ipynb`)
 
 **Entrada:** `output/fato_funcionarios.csv` + `dim_satisfacao.csv`
 **Saída:** `output/fato_funcionarios_ml.csv`
@@ -90,8 +90,8 @@ archive.zip (CSV bruto)
    - Distribuição da variável target (desbalanceamento 84/16)
    - Correlação entre os 5 índices de satisfação
    - Taxa de attrition por grupo (horas extras, estado civil, cargo, viagem)
-3. **Pré-processamento** — encoding de 11 categóricas, 24 numéricas e 6 binárias (41 features)
-4. **Treino** — Random Forest (300 árvores) com SMOTE aplicado apenas no treino e `class_weight='balanced'`
+3. **Pré-processamento**: encoding de 11 categóricas, 24 numéricas e 6 binárias (41 features)
+4. **Treino**: Random Forest (300 árvores) com SMOTE aplicado apenas no treino e `class_weight='balanced'`
 5. **Avaliação**
    - Cross-validation 5-fold: **ROC-AUC ≈ 0,776 ± 0,014**
    - Curvas ROC, Precision-Recall e matriz de confusão
