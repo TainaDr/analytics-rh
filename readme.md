@@ -133,11 +133,3 @@ jupyter notebook ETL_HR_Attrition.ipynb
 # 2. Rodar o ML — consome output/ e gera fato_funcionarios_ml.csv
 jupyter notebook ML_HR_Attrition.ipynb
 ```
-
----
-
-## Próximos passos possíveis
-
-- Testar outros algoritmos (XGBoost, LightGBM) e comparar ROC-AUC
-- Adicionar análise de sobrevivência (Kaplan-Meier) para estimar *quando* o risco aumenta
-- Simulação what-if: impacto de reduzir horas extras ou ajustar faixas salariais na taxa de attrition prevista
