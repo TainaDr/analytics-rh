@@ -1,4 +1,4 @@
-# People Analytics — HR Employee Attrition
+# People Analytics - HR Employee Attrition
 
 Pipeline de dados e machine learning para análise e previsão de rotatividade de funcionários, com saída pronta para consumo no Power BI.
 
@@ -39,7 +39,7 @@ archive.zip (CSV bruto)
 | `data/HR-Employee-Attrition.csv` | Dataset bruto original |
 | `notebooks/ETL_HR_Attrition.ipynb` | Notebook de limpeza, transformação e modelagem estrela |
 | `notebooks/ML_HR_Attrition.ipynb` | Notebook de EDA, treino do modelo e geração do score de risco |
-| `output/fato_funcionarios.csv` | Tabela fato — saída do ETL (39 colunas) |
+| `output/fato_funcionarios.csv` | Tabela fato - saída do ETL (39 colunas) |
 | `output/dim_cargos.csv` | Dimensão de cargos e departamentos |
 | `output/dim_satisfacao.csv` | Dimensão de índices de satisfação |
 | `output/fato_funcionarios_ml.csv` | Tabela fato enriquecida com probabilidade de attrition e SHAP |
@@ -48,7 +48,7 @@ archive.zip (CSV bruto)
 
 ---
 
-## Notebook 1 — ETL (`ETL_HR_Attrition.ipynb`)
+## Notebook 1 - ETL (`ETL_HR_Attrition.ipynb`)
 
 **Entrada:** `HR-Employee-Attrition.csv`
 **Saída:** `output/fato_funcionarios.csv`, `dim_cargos.csv`, `dim_satisfacao.csv`
@@ -64,11 +64,11 @@ archive.zip (CSV bruto)
    - Decodificação de 8 escalas ordinais (1–4 → "Baixo"/"Médio"/"Alto"/"Muito Alto" etc.)
 4. **Enriquecimento**
    - Flags de risco: horas extras, sem promoção há 3+ anos, distância alta, satisfação baixa, renda abaixo da mediana
-   - `score_risco` (0–5) e `nivel_risco` (Baixo/Médio/Alto) — regra heurística baseada nas flags
+   - `score_risco` (0–5) e `nivel_risco` (Baixo/Médio/Alto) - regra heurística baseada nas flags
    - Faixas etárias e de renda (quartis)
    - Métricas de tenure: % da carreira na empresa atual, tempo médio por empresa anterior, índice de estagnação no cargo
-   - `custo_reposicao_est` — custo estimado de reposição por nível de cargo (50%–200% do salário anual)
-5. **Exportação** — modelo estrela com 1 tabela fato + 2 dimensões, mais manifesto de carga
+   - `custo_reposicao_est` - custo estimado de reposição por nível de cargo (50%–200% do salário anual)
+5. **Exportação** - modelo estrela com 1 tabela fato + 2 dimensões, mais manifesto de carga
 
 ### Resultado
 
@@ -100,17 +100,17 @@ archive.zip (CSV bruto)
    - Feature importance global (top 20)
    - SHAP beeswarm e bar plot (visão global)
    - Explicação individual via SHAP para o funcionário de maior risco
-7. **Exportação** — adiciona ao dataset:
-   - `prob_attrition` — probabilidade individual (0–1)
-   - `nivel_risco_ml` — Baixo / Médio / Alto / Crítico, calibrado por percentis reais
-   - `shap_top1_feat/val`, `shap_top2_feat/val`, `shap_top3_feat/val` — os 3 fatores que mais aumentam o risco de cada funcionário
-   - `acao_recomendada` — sugestão automática de ação de RH baseada no fator principal
+7. **Exportação** - adiciona ao dataset:
+   - `prob_attrition` - probabilidade individual (0–1)
+   - `nivel_risco_ml` - Baixo / Médio / Alto / Crítico, calibrado por percentis reais
+   - `shap_top1_feat/val`, `shap_top2_feat/val`, `shap_top3_feat/val`, os 3 fatores que mais aumentam o risco de cada funcionário
+   - `acao_recomendada` - sugestão automática de ação de RH baseada no fator principal
 
 ### Por que Random Forest + SHAP
 
 - **Random Forest** lida bem com features mistas (numéricas, categóricas codificadas, binárias) e colinearidade moderada, sem exigir normalização
 - **SMOTE** corrige o desbalanceamento de classes apenas no treino, evitando vazamento de dados (data leakage)
-- **SHAP** transforma a "caixa-preta" em explicações individuais — essencial para o RH entender *por que* uma pessoa está em risco, não apenas *que* está
+- **SHAP** transforma a "caixa-preta" em explicações individuais, essencial para o RH entender *por que* uma pessoa está em risco, não apenas *que* está
 
 ---
 
@@ -127,9 +127,9 @@ archive.zip (CSV bruto)
 ```bash
 pip install pandas numpy scikit-learn shap imbalanced-learn matplotlib --break-system-packages
 
-# 1. Rodar o ETL primeiro — gera output/
+# 1. Rodar o ETL primeiro - gera output/
 jupyter notebook ETL_HR_Attrition.ipynb
 
-# 2. Rodar o ML — consome output/ e gera fato_funcionarios_ml.csv
+# 2. Rodar o ML - consome output/ e gera fato_funcionarios_ml.csv
 jupyter notebook ML_HR_Attrition.ipynb
 ```
